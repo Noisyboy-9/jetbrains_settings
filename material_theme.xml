@@ -3,9 +3,11 @@
     <option name="hideFileIcons" value="true" />
     <option name="isContrastMode" value="true" />
     <option name="isWizardShown" value="true" />
+    <option name="overrideAccentColor" value="true" />
     <option name="pristineConfig" value="false" />
+    <option name="useColoredDirectories" value="false" />
     <option name="settingsSelectedTab" value="2" />
-    <option name="accentColor" value="ab47bc" />
+    <option name="accentColor" value="009688" />
     <option name="userId" value="-1d87ccec:16ce1863e0b:-8000" />
     <option name="version" value="4.4.6" />
   </component>
