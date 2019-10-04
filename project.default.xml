@@ -1,0 +1,11 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="ComposerSettings">
+        <execution>
+          <executable />
+        </execution>
+      </component>
+    </defaultProject>
+  </component>
+</application>
