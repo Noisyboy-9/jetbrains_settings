@@ -28,6 +28,12 @@
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
   </action>
+  <action id="FileChooser.NewFolder">
+    <keyboard-shortcut first-keystroke="alt insert" />
+  </action>
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="alt insert" />
+  </action>
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
   <action id="GotoFile">
@@ -43,6 +49,10 @@
   </action>
   <action id="Images.ShowThumbnails" />
   <action id="InsertLiveTemplate" />
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="alt insert" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
   <action id="Pause">
     <keyboard-shortcut first-keystroke="ctrl pause" />
   </action>
