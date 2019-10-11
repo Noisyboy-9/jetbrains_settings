@@ -1,0 +1,9 @@
+<templateSet group="PHP Interfaces">
+  <template name="test" value="/** @test **/&#10;public funtion $NAME$() &#10;{&#10;    $CODE$&#10;}" description="test template" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
