@@ -1,8 +1,5 @@
 <application>
   <component name="ApplicationNotificationSettings">
-    <option name="lastUpdateNotification" value="1.0.1" />
-  </component>
-  <component name="DiscordApplicationSettings">
-    <option name="theme" value="" />
+    <option name="lastUpdateNotification" value="1.1.0" />
   </component>
 </application>
