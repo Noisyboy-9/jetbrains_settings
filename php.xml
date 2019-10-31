@@ -7,15 +7,15 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter id="0c4adffa-953e-43ed-8b2f-676c75a5bf14" name="PHP 7.2" home="/usr/bin/php" debugger_id="php.debugger.XDebug" />
+      <interpreter id="0c4adffa-953e-43ed-8b2f-676c75a5bf14" name="PHP 7.3" home="/usr/bin/php" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
-      <interpreter name="PHP 7.2">
-        <phpinfo binary_type="PHP" php_cli="/usr/bin/php7.2" path_separator=":" version="7.2.19-0ubuntu0.19.04.2">
-          <additional_php_ini>/etc/php/7.2/cli/conf.d/10-mysqlnd.ini, /etc/php/7.2/cli/conf.d/10-opcache.ini, /etc/php/7.2/cli/conf.d/10-pdo.ini, /etc/php/7.2/cli/conf.d/15-xml.ini, /etc/php/7.2/cli/conf.d/20-bcmath.ini, /etc/php/7.2/cli/conf.d/20-calendar.ini, /etc/php/7.2/cli/conf.d/20-ctype.ini, /etc/php/7.2/cli/conf.d/20-dom.ini, /etc/php/7.2/cli/conf.d/20-exif.ini, /etc/php/7.2/cli/conf.d/20-fileinfo.ini, /etc/php/7.2/cli/conf.d/20-ftp.ini, /etc/php/7.2/cli/conf.d/20-gd.ini, /etc/php/7.2/cli/conf.d/20-gettext.ini, /etc/php/7.2/cli/conf.d/20-iconv.ini, /etc/php/7.2/cli/conf.d/20-json.ini, /etc/php/7.2/cli/conf.d/20-mbstring.ini, /etc/php/7.2/cli/conf.d/20-mysqli.ini, /etc/php/7.2/cli/conf.d/20-pdo_mysql.ini, /etc/php/7.2/cli/conf.d/20-phar.ini, /etc/php/7.2/cli/conf.d/20-posix.ini, /etc/php/7.2/cli/conf.d/20-readline.ini, /etc/php/7.2/cli/conf.d/20-shmop.ini, /etc/php/7.2/cli/conf.d/20-simplexml.ini, /etc/php/7.2/cli/conf.d/20-sockets.ini, /etc/php/7.2/cli/conf.d/20-sysvmsg.ini, /etc/php/7.2/cli/conf.d/20-sysvsem.ini, /etc/php/7.2/cli/conf.d/20-sysvshm.ini, /etc/php/7.2/cli/conf.d/20-tokenizer.ini, /etc/php/7.2/cli/conf.d/20-wddx.ini, /etc/php/7.2/cli/conf.d/20-xmlreader.ini, /etc/php/7.2/cli/conf.d/20-xmlwriter.ini, /etc/php/7.2/cli/conf.d/20-xsl.ini, /etc/php/7.2/cli/conf.d/20-zip.ini</additional_php_ini>
-          <configuration_file>/etc/php/7.2/cli/php.ini</configuration_file>
+      <interpreter name="PHP 7.3">
+        <phpinfo binary_type="PHP" php_cli="/usr/bin/php7.3" path_separator=":" version="7.3.11-0ubuntu0.19.10.1">
+          <additional_php_ini>/etc/php/7.3/cli/conf.d/10-mysqlnd.ini, /etc/php/7.3/cli/conf.d/10-opcache.ini, /etc/php/7.3/cli/conf.d/10-pdo.ini, /etc/php/7.3/cli/conf.d/15-xml.ini, /etc/php/7.3/cli/conf.d/20-calendar.ini, /etc/php/7.3/cli/conf.d/20-ctype.ini, /etc/php/7.3/cli/conf.d/20-curl.ini, /etc/php/7.3/cli/conf.d/20-dom.ini, /etc/php/7.3/cli/conf.d/20-exif.ini, /etc/php/7.3/cli/conf.d/20-fileinfo.ini, /etc/php/7.3/cli/conf.d/20-ftp.ini, /etc/php/7.3/cli/conf.d/20-gd.ini, /etc/php/7.3/cli/conf.d/20-gettext.ini, /etc/php/7.3/cli/conf.d/20-iconv.ini, /etc/php/7.3/cli/conf.d/20-json.ini, /etc/php/7.3/cli/conf.d/20-mbstring.ini, /etc/php/7.3/cli/conf.d/20-mysqli.ini, /etc/php/7.3/cli/conf.d/20-pdo_mysql.ini, /etc/php/7.3/cli/conf.d/20-phar.ini, /etc/php/7.3/cli/conf.d/20-posix.ini, /etc/php/7.3/cli/conf.d/20-readline.ini, /etc/php/7.3/cli/conf.d/20-shmop.ini, /etc/php/7.3/cli/conf.d/20-simplexml.ini, /etc/php/7.3/cli/conf.d/20-sockets.ini, /etc/php/7.3/cli/conf.d/20-sysvmsg.ini, /etc/php/7.3/cli/conf.d/20-sysvsem.ini, /etc/php/7.3/cli/conf.d/20-sysvshm.ini, /etc/php/7.3/cli/conf.d/20-tokenizer.ini, /etc/php/7.3/cli/conf.d/20-wddx.ini, /etc/php/7.3/cli/conf.d/20-xmlreader.ini, /etc/php/7.3/cli/conf.d/20-xmlwriter.ini, /etc/php/7.3/cli/conf.d/20-xsl.ini</additional_php_ini>
+          <configuration_file>/etc/php/7.3/cli/php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="include_path" value=".:/usr/share/php" />
           </configuration_options>
@@ -28,9 +28,9 @@
             <extension name="SPL" />
             <extension name="SimpleXML" />
             <extension name="Zend OPcache" />
-            <extension name="bcmath" />
             <extension name="calendar" />
             <extension name="ctype" />
+            <extension name="curl" />
             <extension name="date" />
             <extension name="dom" />
             <extension name="exif" />
@@ -66,7 +66,6 @@
             <extension name="xmlreader" />
             <extension name="xmlwriter" />
             <extension name="xsl" />
-            <extension name="zip" />
             <extension name="zlib" />
           </loaded_extensions>
         </phpinfo>
