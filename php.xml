@@ -7,15 +7,15 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter id="0c4adffa-953e-43ed-8b2f-676c75a5bf14" name="PHP 7.3" home="/usr/bin/php7.3" debugger_id="php.debugger.XDebug" />
+      <interpreter id="0c4adffa-953e-43ed-8b2f-676c75a5bf14" name="PHP 7.2" home="/usr/bin/php" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
-      <interpreter name="PHP 7.3">
-        <phpinfo binary_type="PHP" php_cli="/usr/bin/php7.3" path_separator=":" version="7.3.11-0ubuntu0.19.10.1">
-          <additional_php_ini>/etc/php/7.3/cli/conf.d/10-opcache.ini, /etc/php/7.3/cli/conf.d/10-pdo.ini, /etc/php/7.3/cli/conf.d/15-xml.ini, /etc/php/7.3/cli/conf.d/20-calendar.ini, /etc/php/7.3/cli/conf.d/20-ctype.ini, /etc/php/7.3/cli/conf.d/20-curl.ini, /etc/php/7.3/cli/conf.d/20-dom.ini, /etc/php/7.3/cli/conf.d/20-exif.ini, /etc/php/7.3/cli/conf.d/20-fileinfo.ini, /etc/php/7.3/cli/conf.d/20-ftp.ini, /etc/php/7.3/cli/conf.d/20-gettext.ini, /etc/php/7.3/cli/conf.d/20-iconv.ini, /etc/php/7.3/cli/conf.d/20-json.ini, /etc/php/7.3/cli/conf.d/20-mbstring.ini, /etc/php/7.3/cli/conf.d/20-phar.ini, /etc/php/7.3/cli/conf.d/20-posix.ini, /etc/php/7.3/cli/conf.d/20-readline.ini, /etc/php/7.3/cli/conf.d/20-shmop.ini, /etc/php/7.3/cli/conf.d/20-simplexml.ini, /etc/php/7.3/cli/conf.d/20-sockets.ini, /etc/php/7.3/cli/conf.d/20-sysvmsg.ini, /etc/php/7.3/cli/conf.d/20-sysvsem.ini, /etc/php/7.3/cli/conf.d/20-sysvshm.ini, /etc/php/7.3/cli/conf.d/20-tokenizer.ini, /etc/php/7.3/cli/conf.d/20-wddx.ini, /etc/php/7.3/cli/conf.d/20-xmlreader.ini, /etc/php/7.3/cli/conf.d/20-xmlwriter.ini, /etc/php/7.3/cli/conf.d/20-xsl.ini</additional_php_ini>
-          <configuration_file>/etc/php/7.3/cli/php.ini</configuration_file>
+      <interpreter name="PHP 7.2">
+        <phpinfo binary_type="PHP" php_cli="/usr/bin/php7.2" path_separator=":" version="7.2.24-1+ubuntu19.10.1+deb.sury.org+6">
+          <additional_php_ini>/etc/php/7.2/cli/conf.d/10-mysqlnd.ini, /etc/php/7.2/cli/conf.d/10-opcache.ini, /etc/php/7.2/cli/conf.d/10-pdo.ini, /etc/php/7.2/cli/conf.d/15-xml.ini, /etc/php/7.2/cli/conf.d/20-calendar.ini, /etc/php/7.2/cli/conf.d/20-ctype.ini, /etc/php/7.2/cli/conf.d/20-curl.ini, /etc/php/7.2/cli/conf.d/20-dom.ini, /etc/php/7.2/cli/conf.d/20-exif.ini, /etc/php/7.2/cli/conf.d/20-fileinfo.ini, /etc/php/7.2/cli/conf.d/20-ftp.ini, /etc/php/7.2/cli/conf.d/20-gettext.ini, /etc/php/7.2/cli/conf.d/20-iconv.ini, /etc/php/7.2/cli/conf.d/20-json.ini, /etc/php/7.2/cli/conf.d/20-mbstring.ini, /etc/php/7.2/cli/conf.d/20-mysqli.ini, /etc/php/7.2/cli/conf.d/20-pdo_mysql.ini, /etc/php/7.2/cli/conf.d/20-pdo_sqlite.ini, /etc/php/7.2/cli/conf.d/20-phar.ini, /etc/php/7.2/cli/conf.d/20-posix.ini, /etc/php/7.2/cli/conf.d/20-readline.ini, /etc/php/7.2/cli/conf.d/20-shmop.ini, /etc/php/7.2/cli/conf.d/20-simplexml.ini, /etc/php/7.2/cli/conf.d/20-sockets.ini, /etc/php/7.2/cli/conf.d/20-sqlite3.ini, /etc/php/7.2/cli/conf.d/20-sysvmsg.ini, /etc/php/7.2/cli/conf.d/20-sysvsem.ini, /etc/php/7.2/cli/conf.d/20-sysvshm.ini, /etc/php/7.2/cli/conf.d/20-tokenizer.ini, /etc/php/7.2/cli/conf.d/20-wddx.ini, /etc/php/7.2/cli/conf.d/20-xmlreader.ini, /etc/php/7.2/cli/conf.d/20-xmlwriter.ini, /etc/php/7.2/cli/conf.d/20-xsl.ini</additional_php_ini>
+          <configuration_file>/etc/php/7.2/cli/php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="include_path" value=".:/usr/share/php" />
           </configuration_options>
@@ -43,15 +43,20 @@
             <extension name="json" />
             <extension name="libxml" />
             <extension name="mbstring" />
+            <extension name="mysqli" />
+            <extension name="mysqlnd" />
             <extension name="openssl" />
             <extension name="pcntl" />
             <extension name="pcre" />
+            <extension name="pdo_mysql" />
+            <extension name="pdo_sqlite" />
             <extension name="posix" />
             <extension name="readline" />
             <extension name="session" />
             <extension name="shmop" />
             <extension name="sockets" />
             <extension name="sodium" />
+            <extension name="sqlite3" />
             <extension name="standard" />
             <extension name="sysvmsg" />
             <extension name="sysvsem" />
