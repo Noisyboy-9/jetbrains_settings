@@ -1,4 +1,8 @@
 <application>
+  <component name="CodeFoldingSettings">
+    <option name="COLLAPSE_IMPORTS" value="false" />
+    <option name="COLLAPSE_DOC_COMMENTS" value="true" />
+  </component>
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="18" />
     <option name="FONT_FAMILY" value="Fira Code Retina" />
@@ -13,5 +17,9 @@
     </option>
     <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
     <option name="SHOW_BREADCRUMBS" value="false" />
+  </component>
+  <component name="PhpCodeFoldingSettings">
+    <option name="COLLAPSE_HERE_DOCS" value="true" />
+    <option name="COLLAPSE_METHOD_BODY" value="true" />
   </component>
 </application>
