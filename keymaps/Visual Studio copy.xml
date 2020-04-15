@@ -9,6 +9,9 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
   </action>
+  <action id="CheckinFiles">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="ctrl c" />
+  </action>
   <action id="CheckinProject" />
   <action id="ChooseRunConfiguration">
     <keyboard-shortcut first-keystroke="shift alt f10" />
@@ -49,6 +52,7 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
+  <action id="GotoLine" />
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
