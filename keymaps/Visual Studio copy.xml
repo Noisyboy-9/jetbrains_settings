@@ -90,6 +90,7 @@
   </action>
   <action id="RunDashboard.ShowConfigurations" />
   <action id="ServiceView.ShowServices" />
+  <action id="ShowBookmarks" />
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="ctrl comma" />
   </action>
