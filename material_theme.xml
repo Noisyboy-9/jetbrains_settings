@@ -1,13 +1,14 @@
 <application>
   <component name="MaterialThemeConfig">
+    <option name="contrastMode" value="true" />
     <option name="isContrastMode" value="true" />
     <option name="isWizardShown" value="true" />
     <option name="pristineConfig" value="false" />
     <option name="useColoredDirectories" value="false" />
     <option name="settingsSelectedTab" value="2" />
-    <option name="accentColor" value="e57373" />
-    <option name="selectedTheme" value="MONOKAI" />
+    <option name="accentColor" value="2aa298" />
+    <option name="selectedTheme" value="LIGHT_OWL" />
     <option name="userId" value="-1d87ccec:16ce1863e0b:-8000" />
-    <option name="version" value="4.5.2" />
+    <option name="version" value="5.2.0" />
   </component>
 </application>
