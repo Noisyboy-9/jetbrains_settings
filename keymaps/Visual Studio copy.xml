@@ -152,6 +152,9 @@
   <action id="ToggleFullScreen">
     <keyboard-shortcut first-keystroke="ctrl f11" />
   </action>
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+  </action>
   <action id="Uml.ShowDiff" />
   <action id="Vcs.UpdateProject" />
   <action id="openAssertEqualsDiff" />
