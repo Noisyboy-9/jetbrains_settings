@@ -123,6 +123,8 @@
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="alt f8" />
     <keyboard-shortcut first-keystroke="ctrl alt l" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
+    <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
   <action id="ReplaceInPath" />
   <action id="RerunFailedTests">
