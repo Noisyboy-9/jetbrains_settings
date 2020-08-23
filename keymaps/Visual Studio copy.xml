@@ -71,7 +71,12 @@
   </action>
   <action id="GotoBookmark1" />
   <action id="GotoChangedFile" />
-  <action id="GotoClass" />
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="f12" />
+    <mouse-shortcut keystroke="control button1" />
+    <mouse-shortcut keystroke="button2" />
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
