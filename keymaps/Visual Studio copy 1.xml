@@ -1,0 +1,73 @@
+<keymap version="1" name="Visual Studio copy 1" parent="Visual Studio">
+  <action id="ActivatePomodoroToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl p" second-keystroke="ctrl p" />
+  </action>
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl b" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt 1" />
+    <keyboard-shortcut first-keystroke="ctrl back_quote" />
+  </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
+  <action id="ChangeSignature" />
+  <action id="ChangesView.Rename" />
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl f" />
+  </action>
+  <action id="EditorToggleShowWhitespaces" />
+  <action id="ExtractMethod" />
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="Git.Rename.Local.Branch" />
+  <action id="Git.Reword.Commit" />
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="Inline" />
+  <action id="IntroduceField" />
+  <action id="IntroduceParameter" />
+  <action id="IntroduceVariable" />
+  <action id="ModifyObject" />
+  <action id="Move" />
+  <action id="Pause">
+    <keyboard-shortcut first-keystroke="ctrl alt cancel" />
+    <keyboard-shortcut first-keystroke="ctrl pause" />
+  </action>
+  <action id="Print" />
+  <action id="RecentFiles" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="f" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="d" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl d" />
+  </action>
+  <action id="RenameElement" />
+  <action id="RiderBackendAction-EncapsulateField" />
+  <action id="SafeDelete">
+    <keyboard-shortcut first-keystroke="alt delete" />
+  </action>
+  <action id="ShelvedChanges.Rename" />
+  <action id="ShowBookmarks" />
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="ctrl comma" />
+  </action>
+  <action id="Start/stop pomodoro" />
+  <action id="Vcs.ReformatCommitMessage">
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="f" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="d" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl d" />
+  </action>
+  <action id="sql.ExtractFunctionAction" />
+</keymap>

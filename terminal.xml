@@ -1,0 +1,6 @@
+<application>
+  <component name="TerminalOptionsProvider">
+    <option name="myShellPath" value="C:\laragon\bin\cmder\cmder.bat" />
+    <option name="myTabName" value="local" />
+  </component>
+</application>
