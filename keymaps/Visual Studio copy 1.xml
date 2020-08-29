@@ -63,6 +63,10 @@
     <keyboard-shortcut first-keystroke="ctrl comma" />
   </action>
   <action id="Start/stop pomodoro" />
+  <action id="StepInto" />
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
   <action id="Vcs.ReformatCommitMessage">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="f" />
