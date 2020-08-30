@@ -5,7 +5,6 @@
   </component>
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="20" />
-    <option name="FONT_FAMILY" value="Fira Code" />
     <option name="LINE_SPACING" value="1.5" />
     <option name="USE_LIGATURES" value="true" />
   </component>
