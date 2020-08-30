@@ -18,6 +18,9 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl f" />
   </action>
   <action id="EditorToggleShowWhitespaces" />
+  <action id="Exit">
+    <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
   <action id="ExtractMethod" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="Git.Rename.Local.Branch" />
