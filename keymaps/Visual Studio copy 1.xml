@@ -50,16 +50,17 @@
   <action id="Print" />
   <action id="RecentFiles" />
   <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="ctrl alt enter" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="f" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="d" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl d" />
+    <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
   <action id="RenameElement" />
   <action id="RiderBackendAction-EncapsulateField" />
   <action id="SafeDelete">
     <keyboard-shortcut first-keystroke="alt delete" />
   </action>
+  <action id="SaveDocument" />
   <action id="ShelvedChanges.Rename" />
   <action id="ShowBookmarks" />
   <action id="ShowSettings">
