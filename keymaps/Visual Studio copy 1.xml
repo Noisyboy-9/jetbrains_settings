@@ -20,12 +20,20 @@
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl f" />
   </action>
+  <action id="CollapseSelection">
+    <keyboard-shortcut first-keystroke="ctrl period" />
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+  </action>
+  <action id="EditorMatchBrace" />
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
   <action id="EditorToggleShowWhitespaces" />
   <action id="Exit">
     <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
   </action>
   <action id="ExtractMethod" />
   <action id="FileChooser.TogglePathShowing" />
