@@ -9,9 +9,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt 1" />
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
   </action>
-  <action id="ActivateVersionControlToolWindow">
-    <keyboard-shortcut first-keystroke="shift ctrl g" />
-  </action>
+  <action id="ActivateVersionControlToolWindow" />
   <action id="ChangeSignature" />
   <action id="ChangesView.Rename" />
   <action id="CloseProject">
@@ -23,6 +21,10 @@
   </action>
   <action id="ExtractMethod" />
   <action id="FileChooser.TogglePathShowing" />
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="alt insert" />
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
   <action id="Git.Rename.Local.Branch" />
   <action id="Git.Reword.Commit" />
   <action id="GotoClass">
