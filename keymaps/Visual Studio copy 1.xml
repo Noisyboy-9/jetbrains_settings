@@ -12,8 +12,16 @@
   <action id="ActivateVersionControlToolWindow" />
   <action id="ChangeSignature" />
   <action id="ChangesView.Rename" />
+  <action id="CloseActiveTab" />
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl f" />
+  </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
   <action id="EditorToggleShowWhitespaces" />
   <action id="Exit">
