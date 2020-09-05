@@ -30,7 +30,11 @@
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl slash" />
   </action>
+  <action id="EditorLookupDown" />
+  <action id="EditorLookupUp" />
   <action id="EditorMatchBrace" />
+  <action id="EditorScrollDown" />
+  <action id="EditorScrollUp" />
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
@@ -71,8 +75,16 @@
   <action id="IntroduceField" />
   <action id="IntroduceParameter" />
   <action id="IntroduceVariable" />
+  <action id="MethodOverloadSwitchDown" />
+  <action id="MethodOverloadSwitchUp" />
   <action id="ModifyObject" />
   <action id="Move" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
   <action id="Pause">
     <keyboard-shortcut first-keystroke="ctrl alt cancel" />
     <keyboard-shortcut first-keystroke="ctrl pause" />
@@ -91,6 +103,12 @@
     <keyboard-shortcut first-keystroke="alt delete" />
   </action>
   <action id="SaveDocument" />
+  <action id="SearchEverywhere.NavigateToNextGroup">
+    <keyboard-shortcut first-keystroke="page_down" />
+  </action>
+  <action id="SearchEverywhere.NavigateToPrevGroup">
+    <keyboard-shortcut first-keystroke="page_up" />
+  </action>
   <action id="ShelvedChanges.Rename" />
   <action id="ShowBookmarks" />
   <action id="ShowSettings">
