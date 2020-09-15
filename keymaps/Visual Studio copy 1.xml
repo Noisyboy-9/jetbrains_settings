@@ -1,4 +1,8 @@
 <keymap version="1" name="Visual Studio copy 1" parent="Visual Studio">
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+    <keyboard-shortcut first-keystroke="shift alt back_space" />
+  </action>
   <action id="ActivatePomodoroToolWindow">
     <keyboard-shortcut first-keystroke="ctrl p" second-keystroke="ctrl p" />
   </action>
@@ -12,6 +16,10 @@
   <action id="ActivateVersionControlToolWindow" />
   <action id="ChangeSignature" />
   <action id="ChangesView.Rename" />
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="shift ctrl alt r" />
+    <keyboard-shortcut first-keystroke="ctrl 1" />
+  </action>
   <action id="CloseActiveTab" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
@@ -30,6 +38,7 @@
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl slash" />
   </action>
+  <action id="DuplicatesForm.SendToLeft" />
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorMatchBrace" />
@@ -46,6 +55,7 @@
     <keyboard-shortcut first-keystroke="ctrl close_bracket" />
   </action>
   <action id="ExtractMethod" />
+  <action id="FileChooser.GotoHome" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="Generate">
     <keyboard-shortcut first-keystroke="alt insert" />
@@ -53,6 +63,8 @@
   </action>
   <action id="Git.Rename.Local.Branch" />
   <action id="Git.Reword.Commit" />
+  <action id="GotoBookmark1" />
+  <action id="GotoChangedFile" />
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
@@ -98,11 +110,22 @@
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
   <action id="RenameElement" />
+  <action id="RerunFailedTests">
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
   <action id="RiderBackendAction-EncapsulateField" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="ctrl f5" />
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
   <action id="SafeDelete">
     <keyboard-shortcut first-keystroke="alt delete" />
   </action>
   <action id="SaveDocument" />
+  <action id="SearchEverywhere" />
   <action id="SearchEverywhere.NavigateToNextGroup">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
