@@ -1,0 +1,10 @@
+<keymap version="1" name="Sublime Text copy" parent="Sublime Text">
+  <action id="GotoAction" />
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="ctrl comma" />
+  </action>
+  <action id="Start/stop pomodoro" />
+</keymap>
