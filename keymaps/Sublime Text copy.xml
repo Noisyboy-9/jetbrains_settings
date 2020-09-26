@@ -6,6 +6,9 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
   </action>
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl f" />
+  </action>
   <action id="CollapseExpandableComponent">
     <keyboard-shortcut first-keystroke="ctrl subtract" />
     <keyboard-shortcut first-keystroke="ctrl minus" />
