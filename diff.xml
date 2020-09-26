@@ -1,0 +1,9 @@
+<application>
+  <component name="TextDiffSettings">
+    <option name="PLACES_MAP">
+      <entry key="VcsLogView">
+        <PlaceSettings />
+      </entry>
+    </option>
+  </component>
+</application>

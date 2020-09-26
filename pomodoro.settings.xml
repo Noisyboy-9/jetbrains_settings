@@ -1,6 +1,0 @@
-<application>
-  <component name="PomodoroSettings">
-    <option name="showToolWindow" value="true" />
-    <option name="startNewPomodoroAfterBreak" value="true" />
-  </component>
-</application>
