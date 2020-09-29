@@ -89,6 +89,9 @@
   <action id="Start/stop pomodoro" />
   <action id="Terminal.SmartCommandExecution.Run" />
   <action id="UML.ShowStructure" />
+  <action id="Vcs.ReformatCommitMessage">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+  </action>
   <action id="ViewSource" />
   <action id="XPathView.Actions.Evaluate" />
   <action id="XPathView.Actions.FindByExpression" />
