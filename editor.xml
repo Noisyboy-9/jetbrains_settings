@@ -12,7 +12,6 @@
     <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR" />
     <option name="SOFT_WRAP_FILE_MASKS" value="*" />
     <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
-    <option name="IS_FOLDING_OUTLINE_SHOWN" value="false" />
     <option name="SHOW_BREADCRUMBS" value="false" />
     <option name="IS_DND_ENABLED" value="false" />
   </component>
@@ -25,10 +24,7 @@
     <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
   </component>
   <component name="PhpCodeFoldingSettings">
-    <option name="COLLAPSE_PHP_TAGS" value="true" />
-    <option name="COLLAPSE_HERE_DOCS" value="true" />
     <option name="COLLAPSE_FUNCTION_BODY" value="true" />
     <option name="COLLAPSE_METHOD_BODY" value="true" />
-    <option name="COLLAPSE_CLASSES" value="true" />
   </component>
 </application>
