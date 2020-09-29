@@ -6,7 +6,9 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
   </action>
-  <action id="ChooseRunConfiguration" />
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="ctrl 1" />
+  </action>
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl f" />
   </action>
@@ -23,6 +25,7 @@
   <action id="Console.TableResult.Submit" />
   <action id="DatabaseView.PropertiesAction" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
+  <action id="DuplicatesForm.SendToLeft" />
   <action id="EditorSplitLine" />
   <action id="EditorStartNewLine">
     <keyboard-shortcut first-keystroke="shift enter" />
@@ -38,12 +41,14 @@
     <keyboard-shortcut first-keystroke="ctrl add" />
     <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
+  <action id="FileChooser.GotoHome" />
   <action id="FileStructurePopup" />
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
   <action id="Git.Branches" />
   <action id="GotoAction" />
+  <action id="GotoBookmark1" />
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="ctrl alt x" />
   </action>
