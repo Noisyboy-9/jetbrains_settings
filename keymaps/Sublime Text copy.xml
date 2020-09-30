@@ -56,7 +56,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
   <action id="GotoLine" />
-  <action id="GotoSymbol" />
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
+  </action>
   <action id="ImplementMethods">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
