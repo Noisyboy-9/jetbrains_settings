@@ -2,8 +2,10 @@
   <template name="ai" value="&lt;xsl:apply-imports/&gt;$END$" description="Apply-Imports." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="COMPLETION" value="false" />
+      <option name="CSS" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JSP" value="false" />
     </context>
@@ -12,8 +14,10 @@
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="COMPLETION" value="false" />
+      <option name="CSS" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JSP" value="false" />
     </context>
@@ -22,8 +26,10 @@
     <variable name="SELECT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="COMPLETION" value="false" />
+      <option name="CSS" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JSP" value="false" />
     </context>
@@ -33,8 +39,10 @@
     <variable name="MODE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="COMPLETION" value="false" />
+      <option name="CSS" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JSP" value="false" />
     </context>
@@ -42,8 +50,10 @@
   <template name="cos" value="&lt;xsl:copy-of select=&quot;$END$&quot;/&gt;" description="Copy-Of-Select." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="COMPLETION" value="false" />
+      <option name="CSS" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JSP" value="false" />
     </context>
@@ -52,8 +62,10 @@
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="COMPLETION" value="false" />
+      <option name="CSS" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JSP" value="false" />
     </context>
@@ -64,8 +76,10 @@
     <variable name="SELECT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="COMPLETION" value="false" />
+      <option name="CSS" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JSP" value="false" />
     </context>
@@ -74,8 +88,10 @@
     <variable name="TEST" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="COMPLETION" value="false" />
+      <option name="CSS" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JSP" value="false" />
     </context>
@@ -84,8 +100,10 @@
     <variable name="TEST" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="COMPLETION" value="false" />
+      <option name="CSS" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JSP" value="false" />
     </context>
@@ -94,8 +112,10 @@
     <variable name="SELECT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="COMPLETION" value="false" />
+      <option name="CSS" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JSP" value="false" />
     </context>
@@ -104,8 +124,10 @@
     <variable name="TEST" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="COMPLETION" value="false" />
+      <option name="CSS" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JSP" value="false" />
     </context>
@@ -116,8 +138,10 @@
     <variable name="USE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="COMPLETION" value="false" />
+      <option name="CSS" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JSP" value="false" />
     </context>
@@ -125,8 +149,10 @@
   <template name="o" value="&lt;xsl:otherwise&gt;&#10;    $END$&#10;&lt;/xsl:otherwise&gt;" description="Otherwise." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="COMPLETION" value="false" />
+      <option name="CSS" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JSP" value="false" />
     </context>
@@ -134,8 +160,10 @@
   <template name="pn" value="&lt;xsl:param name=&quot;$END$&quot;/&gt;" description="Param-Name." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="COMPLETION" value="false" />
+      <option name="CSS" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JSP" value="false" />
     </context>
@@ -144,8 +172,10 @@
     <variable name="MATCH" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="COMPLETION" value="false" />
+      <option name="CSS" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JSP" value="false" />
     </context>
@@ -155,8 +185,10 @@
     <variable name="MODE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="COMPLETION" value="false" />
+      <option name="CSS" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JSP" value="false" />
     </context>
@@ -165,8 +197,10 @@
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="COMPLETION" value="false" />
+      <option name="CSS" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JSP" value="false" />
     </context>
@@ -174,8 +208,10 @@
   <template name="tt" value="&lt;xsl:text&gt;$END$&lt;/xsl:text&gt;" description="Text." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="COMPLETION" value="false" />
+      <option name="CSS" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JSP" value="false" />
     </context>
@@ -184,8 +220,10 @@
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="COMPLETION" value="false" />
+      <option name="CSS" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JSP" value="false" />
     </context>
@@ -195,8 +233,10 @@
     <variable name="SELECT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="COMPLETION" value="false" />
+      <option name="CSS" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JSP" value="false" />
     </context>
@@ -204,8 +244,10 @@
   <template name="vos" value="&lt;xsl:value-of select=&quot;$END$&quot;/&gt;" description="Value-Of-Select." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="COMPLETION" value="false" />
+      <option name="CSS" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JSP" value="false" />
     </context>
@@ -215,8 +257,10 @@
     <variable name="SELECT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="COMPLETION" value="false" />
+      <option name="CSS" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JSP" value="false" />
     </context>
@@ -226,8 +270,10 @@
     <variable name="SELECT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="COMPLETION" value="false" />
+      <option name="CSS" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JSP" value="false" />
     </context>
@@ -236,8 +282,10 @@
     <variable name="TEST" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="COMPLETION" value="false" />
+      <option name="CSS" value="false" />
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JSP" value="false" />
     </context>

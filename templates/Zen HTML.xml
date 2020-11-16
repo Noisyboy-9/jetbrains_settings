@@ -9,6 +9,8 @@
     <variable name="MIN_SCALE" expression="" defaultValue="&quot;1.0&quot;" alwaysStopAt="true" />
     <variable name="IE" expression="" defaultValue="&quot;edge&quot;" alwaysStopAt="true" />
     <variable name="TITLE" expression="" defaultValue="&quot;Document&quot;" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="JSX_HTML" value="true" />
+    </context>
   </template>
 </templateSet>
