@@ -1,8 +1,7 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="localhost" id="592bef70-9bc3-40b2-85fb-5276c93d4baa" port="22" nameFormat="DESCRIPTIVE" />
-      <sshConfig authType="PASSWORD" host="localhost" id="e8d34e8a-368b-49e0-b431-690a74064bd6" port="2222" customName="windows wsl" nameFormat="CUSTOM" username="noisyboy">
+      <sshConfig authType="PASSWORD" host="localhost" id="e8d34e8a-368b-49e0-b431-690a74064bd6" port="22" customName="windows wsl" nameFormat="CUSTOM" username="noisyboy">
         <option name="customName" value="windows wsl" />
       </sshConfig>
     </configs>
