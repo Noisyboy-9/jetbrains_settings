@@ -2,7 +2,10 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="63af55db-fc90-4cc2-b367-ce1be1734df9" name="WSL (63af55db-fc90-4cc2-b367-ce1be1734df9)" url="http:///">
-        <fileTransfer accessType="SFTP" host="localhost" port="2222" sshConfigId="e8d34e8a-368b-49e0-b431-690a74064bd6" sshConfig="windows wsl" />
+        <fileTransfer accessType="SFTP" host="localhost" port="4444" sshConfigId="e8d34e8a-368b-49e0-b431-690a74064bd6" sshConfig="noisyboy@localhost:4444 password" />
+      </webServer>
+      <webServer id="7c3516e0-2846-4d5a-96d4-54a760b80bb7" name="WSL (7c3516e0-2846-4d5a-96d4-54a760b80bb7)" url="http:///">
+        <fileTransfer accessType="SFTP" host="localhost" port="4444" sshConfigId="e8d34e8a-368b-49e0-b431-690a74064bd6" sshConfig="noisyboy@localhost:4444 password" />
       </webServer>
     </option>
   </component>
