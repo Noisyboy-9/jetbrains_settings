@@ -6,6 +6,12 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
   </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="alt subtract" />
+    <keyboard-shortcut first-keystroke="alt minus" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
   <action id="ChooseRunConfiguration">
     <keyboard-shortcut first-keystroke="ctrl 1" />
   </action>
@@ -54,6 +60,10 @@
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
+  <action id="GotoImplementation">
+    <mouse-shortcut keystroke="control alt button1" />
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
   <action id="GotoLine" />
   <action id="GotoSymbol">
