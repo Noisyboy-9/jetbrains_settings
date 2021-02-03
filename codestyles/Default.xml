@@ -1,4 +1,9 @@
 <code_scheme name="Default" version="173">
+  <JSCodeStyleSettings version="0">
+    <option name="FORCE_SEMICOLON_STYLE" value="true" />
+    <option name="USE_DOUBLE_QUOTES" value="false" />
+    <option name="FORCE_QUOTE_STYlE" value="true" />
+  </JSCodeStyleSettings>
   <PHPCodeStyleSettings>
     <option name="PHPDOC_BLANK_LINES_AROUND_PARAMETERS" value="true" />
     <option name="LOWER_CASE_BOOLEAN_CONST" value="true" />
