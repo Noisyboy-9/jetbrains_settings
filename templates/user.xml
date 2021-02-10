@@ -1,5 +1,5 @@
 <templateSet group="user">
-  <template name="&lt;abbreviation&gt;" value="console.log()" toReformat="true" toShortenFQNames="true">
+  <template name="&lt;abbreviation&gt;" value="console.log()" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="ES6_STATEMENT" value="true" />
       <option name="ES6_TOP_LEVEL_STATEMENT" value="true" />
