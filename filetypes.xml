@@ -1,6 +1,9 @@
 <application>
-  <component name="FileTypeManager" version="17">
+  <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="*.php.stub" type="PHP" />
+      <mapping pattern=".php_cs" type="PHP" />
+      <mapping ext="stub" type="PHP" />
       <mapping pattern="create_dashboard_tiles_table" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern=".env-flare" type="PLAIN_TEXT" />
@@ -35,22 +38,16 @@
       <mapping pattern="log-dumper" type="PLAIN_TEXT" />
       <mapping ext="binary" type="PLAIN_TEXT" />
       <mapping ext="view" type="PLAIN_TEXT" />
-      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping pattern="first-party-extensions.md" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="dockerfile" approved="true" type="textmate" />
-      <removed_mapping pattern="making-solutions-runnable" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="makefile" approved="true" type="textmate" />
-      <removed_mapping pattern="sharing-error-occurrences" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="snakefile" approved="true" type="textmate" />
       <removed_mapping ext="ctp" approved="true" type="PHP" />
-      <mapping pattern="*.php.stub" type="PHP" />
-      <mapping ext="stub" type="PHP" />
-      <mapping pattern=".php_cs" type="PHP" />
+      <removed_mapping ext="dockerfile" approved="true" type="textmate" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="makefile" approved="true" type="textmate" />
+      <removed_mapping ext="snakefile" approved="true" type="textmate" />
+      <removed_mapping pattern="first-party-extensions.md" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern="making-solutions-runnable" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern="sharing-error-occurrences" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
