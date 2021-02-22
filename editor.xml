@@ -1,5 +1,6 @@
 <application>
   <component name="CodeFoldingSettings">
+    <option name="COLLAPSE_IMPORTS" value="false" />
     <option name="COLLAPSE_METHODS" value="true" />
     <option name="COLLAPSE_DOC_COMMENTS" value="true" />
   </component>
@@ -26,6 +27,11 @@
       </set>
     </option>
     <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
+  </component>
+  <component name="JavaCodeFoldingSettings">
+    <option name="collapseConstructorGenericParameters" value="false" />
+    <option name="collapseLambdas" value="false" />
+    <option name="collapseOneLineMethods" value="false" />
   </component>
   <component name="LiveEditOptions" chromeAutoDelay="300" chromeUpdateJSOnChanges="true" nodeUpdateOnChanges="true" restartIfHotSwapFailed="true" updateFilesToCompile="true" />
   <component name="PhpCodeFoldingSettings">
