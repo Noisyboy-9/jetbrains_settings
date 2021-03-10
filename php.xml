@@ -86,4 +86,9 @@
       </interpreter>
     </phpInfoCache>
   </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <phpunit_by_interpreter interpreter_id="060ccc82-748e-40ac-bcff-e578e39f2019" configuration_file_path="//wsl$/Ubuntu-20.04/home/noisyboy/webProgramming/pronto/phpunit.xml" custom_loader_path="//wsl$/Ubuntu-20.04/home/noisyboy/webProgramming/pronto/vendor/autoload.php" use_configuration_file="true" />
+    </phpunit_settings>
+  </component>
 </application>
