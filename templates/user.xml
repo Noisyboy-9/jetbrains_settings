@@ -1,9 +1,10 @@
 <templateSet group="user">
-  <template name="test" value="/** @test **/&#10;public function $TEST_NAME$()&#10;{&#10;    $TEST_BODY$&#10;}" description="create a test template" toReformat="true" toShortenFQNames="true">
-    <variable name="TEST_NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="TEST_BODY" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="&lt;abbreviation&gt;" value="console.log()" description="" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="PHP Class Member" value="true" />
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="ES6_TOP_LEVEL_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>

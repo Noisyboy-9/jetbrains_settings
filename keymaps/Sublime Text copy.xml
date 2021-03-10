@@ -6,6 +6,12 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
   </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="alt subtract" />
+    <keyboard-shortcut first-keystroke="alt minus" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
   <action id="ChooseRunConfiguration">
     <keyboard-shortcut first-keystroke="ctrl 1" />
   </action>
@@ -23,6 +29,7 @@
     <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
   <action id="Console.TableResult.Submit" />
+  <action id="ContextHelp" />
   <action id="DatabaseView.PropertiesAction" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="DuplicatesForm.SendToLeft" />
@@ -55,7 +62,14 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
+  <action id="GotoImplementation">
+    <mouse-shortcut keystroke="control alt button1" />
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
   <action id="GotoLine" />
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="f1" />
+  </action>
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift ctrl n" />
   </action>
@@ -65,6 +79,9 @@
   <action id="OpenElementInNewWindow" />
   <action id="PlaybackLastMacro" />
   <action id="QuickChangeScheme" />
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="ctrl alt space" />
+  </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift ctrl alt t" />
     <keyboard-shortcut first-keystroke="ctrl r" />
