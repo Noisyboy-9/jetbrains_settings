@@ -11,6 +11,11 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
   </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="meta left" />
+  </action>
   <action id="ChangesView.Diff" />
   <action id="ChangesView.Revert" />
   <action id="ChangesView.ToggleCommitUi" />
@@ -27,10 +32,19 @@
     <keyboard-shortcut first-keystroke="shift meta alt g" />
   </action>
   <action id="DatabaseView.PropertiesAction" />
+  <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ShowDiff" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="EditorDuplicate" />
-  <action id="EditorEscape" />
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="end" />
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="home" />
+    <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
+  <action id="EditorUnindentSelection" />
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.GotoHome" />
   <action id="FileChooser.LightEditGotoOpenedFile">
@@ -52,13 +66,32 @@
   </action>
   <action id="Github.PullRequest.Comments.Reload" />
   <action id="Github.PullRequest.Details.Reload" />
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="meta b" />
+    <mouse-shortcut keystroke="meta button1" />
+    <mouse-shortcut keystroke="Force touch" />
+    <mouse-shortcut keystroke="button2" />
+    <keyboard-shortcut first-keystroke="meta right" />
+  </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
   <action id="GotoTest" />
   <action id="Images.Thumbnails.Hide" />
+  <action id="MethodDown" />
   <action id="NavBar-cancel" />
+  <action id="NavBar-selectHome">
+    <keyboard-shortcut first-keystroke="home" />
+    <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
+  <action id="NextEditorTab" />
   <action id="NextOccurence" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="shift tab" />
+  </action>
+  <action id="PrevParameter" />
+  <action id="PrevTemplateParameter" />
+  <action id="PreviousTemplateVariable" />
   <action id="QuickChangeScheme" />
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="alt space" />
@@ -78,9 +111,7 @@
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
   <action id="RunDashboard.CopyConfiguration" />
-  <action id="SearchEverywhere">
-    <keyboard-shortcut first-keystroke="escape" second-keystroke="escape" />
-  </action>
+  <action id="SearchEverywhere.PrevTab" />
   <action id="SelectIn">
     <keyboard-shortcut first-keystroke="alt f1" />
     <keyboard-shortcut first-keystroke="meta i" />
