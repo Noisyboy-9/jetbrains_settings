@@ -6,6 +6,10 @@
           <option name="url" value="https://github.com/bardia-ardakanian/frontend-journey.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/nikandlv/pronto" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="\\wsl$\Ubuntu-20.04\home\noisyboy\webProgramming" />
