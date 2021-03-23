@@ -108,7 +108,7 @@
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
   <action id="RearrangeCode">
-    <keyboard-shortcut first-keystroke="meta s" />
+    <keyboard-shortcut first-keystroke="shift meta s" />
   </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="ctrl t" />
