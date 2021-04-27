@@ -1,6 +1,19 @@
 <templateSet group="Zen CSS">
+  <template name="anim" value="animation: $END$;" description="animation:...;" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="pos" value="position:$VAR0$;" description="position:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;relative&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="pos:a" value="position:absolute;" description="position:absolute;" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
   <template name="mar" value="max-resolution:$VAR0$;" description="max-resolution:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;res&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="to" value="text-outline: $END$;" description="text-outline:...;" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
 </templateSet>
