@@ -1,9 +1,0 @@
-<templateSet group="Java">
-  <template name="pubvo" value="public void $NAME$($PARAMS$) {&#10;    $END$&#10;}" description="createa a public void method" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_CODE" value="true" />
-    </context>
-  </template>
-</templateSet>
