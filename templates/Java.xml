@@ -6,4 +6,10 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="trr" value="try($FIRST$) {&#10;   $END$ &#10;} " description="create try with resource" toReformat="false" toShortenFQNames="true">
+    <variable name="FIRST" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
