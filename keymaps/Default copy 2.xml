@@ -40,6 +40,7 @@
   <action id="Diff.PrevChange" />
   <action id="Diff.ShowDiff" />
   <action id="DuplicatesForm.SendToLeft" />
+  <action id="EditorAddCaretPerSelectedLine" />
   <action id="EditorDuplicate" />
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="end" />
@@ -107,9 +108,15 @@
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
+  <action id="RearrangeCode">
+    <keyboard-shortcut first-keystroke="shift meta s" />
+  </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="ctrl t" />
     <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta s" />
   </action>
   <action id="Refresh" />
   <action id="Replace" />
@@ -122,6 +129,7 @@
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
   <action id="RunDashboard.CopyConfiguration" />
+  <action id="SaveAll" />
   <action id="SearchEverywhere.PrevTab" />
   <action id="SelectIn">
     <keyboard-shortcut first-keystroke="alt f1" />
