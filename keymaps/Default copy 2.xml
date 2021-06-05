@@ -9,7 +9,7 @@
     <keyboard-shortcut first-keystroke="meta 1" />
   </action>
   <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl back_quote" />
+    <keyboard-shortcut first-keystroke="ctrl #10000a7" />
   </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="meta open_bracket" />
