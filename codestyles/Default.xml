@@ -233,7 +233,7 @@
             <match>
               <AND>
                 <METHOD>true</METHOD>
-                <STATIC>true</STATIC>
+                <PUBLIC>true</PUBLIC>
               </AND>
             </match>
           </rule>
@@ -244,6 +244,7 @@
               <AND>
                 <METHOD>true</METHOD>
                 <PUBLIC>true</PUBLIC>
+                <STATIC>true</STATIC>
               </AND>
             </match>
           </rule>
