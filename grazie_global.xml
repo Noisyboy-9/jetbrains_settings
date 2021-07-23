@@ -10,6 +10,7 @@
         <option name="suppressed">
           <set>
             <option value="&gt; In" />
+            <option value="of 5" />
           </set>
         </option>
       </SuppressingContext>
