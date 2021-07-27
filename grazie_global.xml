@@ -9,10 +9,11 @@
       <SuppressingContext>
         <option name="suppressed">
           <set>
-            <option value="2.5" />
             <option value="5 tiles" />
+            <option value="2.5" />
             <option value="&gt; In" />
             <option value="of 5" />
+            <option value="an empty" />
           </set>
         </option>
       </SuppressingContext>
