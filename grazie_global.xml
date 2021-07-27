@@ -10,10 +10,13 @@
         <option name="suppressed">
           <set>
             <option value="5 tiles" />
+            <option value="an empty" />
             <option value="2.5" />
             <option value="&gt; In" />
             <option value="of 5" />
-            <option value="an empty" />
+            <option value="an PageNotFoundException" />
+            <option value="that renders" />
+            <option value="php to" />
           </set>
         </option>
       </SuppressingContext>
