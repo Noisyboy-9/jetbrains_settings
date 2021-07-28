@@ -9,6 +9,7 @@
       <SuppressingContext>
         <option name="suppressed">
           <set>
+            <option value="variable name" />
             <option value="5 tiles" />
             <option value="that renders" />
             <option value="an empty" />
@@ -17,7 +18,7 @@
             <option value="&gt; In" />
             <option value="an PageNotFoundException" />
             <option value="of 5" />
-            <option value="variable name" />
+            <option value="array from" />
           </set>
         </option>
       </SuppressingContext>
