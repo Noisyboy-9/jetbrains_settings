@@ -9,16 +9,17 @@
       <SuppressingContext>
         <option name="suppressed">
           <set>
-            <option value="2.5" />
+            <option value="variable name" />
             <option value="5 tiles" />
+            <option value="that renders" />
+            <option value="an empty" />
+            <option value="php to" />
+            <option value="2.5" />
             <option value="&gt; In" />
             <option value="an PageNotFoundException" />
-            <option value="an empty" />
             <option value="array from" />
             <option value="of 5" />
-            <option value="php to" />
-            <option value="that renders" />
-            <option value="variable name" />
+            <option value="every other" />
           </set>
         </option>
       </SuppressingContext>
