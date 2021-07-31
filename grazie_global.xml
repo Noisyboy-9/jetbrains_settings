@@ -9,21 +9,23 @@
       <SuppressingContext>
         <option name="suppressed">
           <set>
-            <option value="every other" />
-            <option value="variable name" />
             <option value="5 tiles" />
             <option value="that renders" />
+            <option value="will be" />
             <option value="an empty" />
             <option value="php to" />
+            <option value="array from" />
+            <option value="every other" />
+            <option value="variable name" />
+            <option value="the same" />
+            <option value="added to" />
             <option value="2.5" />
             <option value="&gt; In" />
             <option value="an PageNotFoundException" />
-            <option value="array from" />
-            <option value="of 5" />
-            <option value="will be" />
             <option value="name field" />
-            <option value="added to" />
-            <option value="the same" />
+            <option value="of 5" />
+            <option value="not, if" />
+            <option value="and checks" />
           </set>
         </option>
       </SuppressingContext>
