@@ -2,7 +2,7 @@
   <component name="GraziConfig">
     <option name="userDisabledRules">
       <set>
-        <option value="PASSIVE_VOICE" />
+        <option value="LanguageTool.EN.PASSIVE_VOICE" />
       </set>
     </option>
     <option name="suppressingContext">
