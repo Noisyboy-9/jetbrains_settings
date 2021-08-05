@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'blog_laracasts'" />
-    <option name="defaultScopeName" value="Project 'blog_laracasts'" />
-    <option name="SEARCH_SCOPE" value="Project 'blog_laracasts'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
