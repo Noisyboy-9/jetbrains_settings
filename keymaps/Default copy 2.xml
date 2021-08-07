@@ -135,7 +135,6 @@
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
   <action id="RunDashboard.CopyConfiguration" />
-  <action id="SaveAll" />
   <action id="SaveAs" />
   <action id="SearchEverywhere.PrevTab" />
   <action id="SelectIn">
