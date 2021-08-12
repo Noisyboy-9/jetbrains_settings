@@ -2,21 +2,30 @@
   <component name="GraziConfig">
     <option name="userDisabledRules">
       <set>
-        <option value="PASSIVE_VOICE" />
+        <option value="LanguageTool.EN.PASSIVE_VOICE" />
       </set>
     </option>
     <option name="suppressingContext">
       <SuppressingContext>
         <option name="suppressed">
           <set>
-            <option value="5 tiles" />
-            <option value="an empty" />
             <option value="2.5" />
+            <option value="5 tiles" />
             <option value="&gt; In" />
-            <option value="of 5" />
+            <option value="added to" />
             <option value="an PageNotFoundException" />
-            <option value="that renders" />
+            <option value="an empty" />
+            <option value="and checks" />
+            <option value="array from" />
+            <option value="every other" />
+            <option value="name field" />
+            <option value="not, if" />
+            <option value="of 5" />
             <option value="php to" />
+            <option value="that renders" />
+            <option value="the same" />
+            <option value="variable name" />
+            <option value="will be" />
           </set>
         </option>
       </SuppressingContext>

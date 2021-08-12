@@ -14,6 +14,10 @@
           <option name="url" value="https://github.com/btholt/algorithms-exercises.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Noisyboy-9/go_learning_frontendmasters.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Desktop/dev/web" />
