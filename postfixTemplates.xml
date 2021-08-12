@@ -1,0 +1,10 @@
+<application>
+  <component name="PostfixTemplates">
+    <template id="close@userDefined" key=".close" provider="com.goide.postfix.GoPostfixTemplateProvider" topmost="false">
+      <conditions>
+        <condition id="channel" />
+      </conditions>
+      <template name="fakeKey" value="close($EXPR$)" toReformat="true" toShortenFQNames="true" />
+    </template>
+  </component>
+</application>
