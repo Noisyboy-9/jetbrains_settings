@@ -121,9 +121,7 @@
     <keyboard-shortcut first-keystroke="ctrl t" />
     <keyboard-shortcut first-keystroke="meta r" />
   </action>
-  <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="meta s" />
-  </action>
+  <action id="ReformatCode" />
   <action id="Refresh" />
   <action id="Replace" />
   <action id="Rerun" />
