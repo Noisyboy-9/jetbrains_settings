@@ -2,9 +2,6 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern=",gitignore" type="AUTO_DETECTED" />
-      <mapping ext="space.kts" type="Kotlin" />
-      <mapping ext="gradle.kts" type="Kotlin" />
-      <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="*.php.stub" type="PHP" />
       <mapping pattern=".php_cs" type="PHP" />
       <mapping ext="stub" type="PHP" />
@@ -47,6 +44,7 @@
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="ctp" approved="true" type="PHP" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
+      <removed_mapping ext="html" approved="true" type="HTML" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="makefile" approved="true" type="textmate" />
       <removed_mapping ext="psd" approved="true" type="Image" />
@@ -54,7 +52,10 @@
       <removed_mapping pattern="first-party-extensions.md" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="making-solutions-runnable" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="sharing-error-occurrences" approved="true" type="PLAIN_TEXT" />
+      <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="*.php.stub" type="PHP" />
+      <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="stub" type="PHP" />
       <mapping pattern=".php_cs" type="PHP" />
     </extensionMap>
