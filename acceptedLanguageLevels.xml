@@ -1,0 +1,8 @@
+<application>
+  <component name="AcceptedLanguageLevels">
+    <explicitly-accepted>
+      <name>JDK_X</name>
+      <name>JDK_16_PREVIEW</name>
+    </explicitly-accepted>
+  </component>
+</application>
