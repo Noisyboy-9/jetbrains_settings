@@ -1,4 +1,4 @@
-<keymap version="1" name="Default copy 2" parent="Mac OS X 10.5+">
+<keymap version="1" name="macos_keymap" parent="Mac OS X 10.5+">
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="meta f9" />
   </action>
