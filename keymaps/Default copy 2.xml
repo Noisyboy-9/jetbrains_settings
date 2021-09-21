@@ -91,6 +91,12 @@
     <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
   <action id="GotoTest" />
+  <action id="Graph.ActualSize">
+    <keyboard-shortcut first-keystroke="meta divide" />
+  </action>
+  <action id="Images.Editor.ActualSize">
+    <keyboard-shortcut first-keystroke="meta divide" />
+  </action>
   <action id="Images.Thumbnails.Hide" />
   <action id="MethodDown" />
   <action id="NavBar-cancel" />
