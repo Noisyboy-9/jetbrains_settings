@@ -1,4 +1,4 @@
-<keymap version="1" name="Default copy 2" parent="Mac OS X 10.5+">
+<keymap version="1" name="macos_keymap" parent="Mac OS X 10.5+">
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="meta f9" />
   </action>
@@ -91,12 +91,6 @@
     <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
   <action id="GotoTest" />
-  <action id="Graph.ActualSize">
-    <keyboard-shortcut first-keystroke="meta divide" />
-  </action>
-  <action id="Images.Editor.ActualSize">
-    <keyboard-shortcut first-keystroke="meta divide" />
-  </action>
   <action id="Images.Thumbnails.Hide" />
   <action id="MethodDown" />
   <action id="NavBar-cancel" />
