@@ -33,15 +33,4 @@
       <template name="fakeKey" value="fmt.Println($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
   </component>
-  <component name="PostfixTemplatesSettings">
-    <option name="providerToDisabledTemplates">
-      <disabled-templates provider="com.goide.postfix.GoPostfixTemplateProvider">
-        <value>
-          <set>
-            <option value="append" />
-          </set>
-        </value>
-      </disabled-templates>
-    </option>
-  </component>
 </application>
