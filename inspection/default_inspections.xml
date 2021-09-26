@@ -2,6 +2,13 @@
   <option name="myName" value="default_inspections" />
   <inspection_tool class="5b14e21b-4944-32ae-964c-5be4ae7cd458" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="PhpUnnecessaryLeadingBackslashInUseStatementInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoredIdentifiers">
+      <list>
+        <option value="main.*" />
+      </list>
+    </option>
+  </inspection_tool>
   <inspection_tool class="SSBasedInspection" enabled="true" level="WARNING" enabled_by_default="true">
     <replaceConfiguration name="snakecase" problemDescriptor="must use snake case" text="myVariable = $content$" recursive="false" caseInsensitive="false" type="JavaScript" reformatAccordingToStyle="false" shortenFQN="false" replacement="my_variable = $content$">
       <constraint name="__context__" within="" contains="" />
