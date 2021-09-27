@@ -6,17 +6,11 @@
       </conditions>
       <template name="fakeKey" value="close($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
     </template>
-    <template id="toInt@userDefined" key=".toInt" provider="com.goide.postfix.GoPostfixTemplateProvider" topmost="false">
+    <template id="toFloat64@userDefined" key=".toFloat" provider="com.goide.postfix.GoPostfixTemplateProvider" topmost="false">
       <conditions>
         <condition id="number" />
       </conditions>
-      <template name="fakeKey" value="int($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
-    </template>
-    <template id="print" key=".print" provider="com.goide.postfix.GoPostfixTemplateProvider" builtin="print" topmost="true">
-      <conditions>
-        <condition id="non void" />
-      </conditions>
-      <template name="fakeKey" value="fmt.Print($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
+      <template name="fakeKey" value="float64($EXPR$)" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="toString@userDefined" key=".toString" provider="com.goide.postfix.GoPostfixTemplateProvider" topmost="false">
       <conditions>
@@ -25,6 +19,18 @@
         <condition id="channel" />
       </conditions>
       <template name="fakeKey" value="string($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="print" key=".print" provider="com.goide.postfix.GoPostfixTemplateProvider" builtin="print" topmost="true">
+      <conditions>
+        <condition id="non void" />
+      </conditions>
+      <template name="fakeKey" value="fmt.Print($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="toInt@userDefined" key=".toInt" provider="com.goide.postfix.GoPostfixTemplateProvider" topmost="false">
+      <conditions>
+        <condition id="number" />
+      </conditions>
+      <template name="fakeKey" value="int($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="println" key=".println" provider="com.goide.postfix.GoPostfixTemplateProvider" builtin="println" topmost="true">
       <conditions>

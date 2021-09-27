@@ -7,6 +7,7 @@
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="true" />
       <option name="JAVA_STRING" value="false" />
+      <option name="JSP" value="true" />
     </context>
   </template>
 </templateSet>
