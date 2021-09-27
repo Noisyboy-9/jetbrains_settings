@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern=",gitignore" type="AUTO_DETECTED" />
+      <mapping ext="md" type="Go Template" />
       <mapping pattern="*.php.stub" type="PHP" />
       <mapping pattern=".php_cs" type="PHP" />
       <mapping ext="stub" type="PHP" />
@@ -47,6 +48,7 @@
       <removed_mapping ext="html" approved="true" type="HTML" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="makefile" approved="true" type="textmate" />
+      <removed_mapping ext="md" approved="true" type="Markdown" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
       <removed_mapping pattern="first-party-extensions.md" approved="true" type="PLAIN_TEXT" />
