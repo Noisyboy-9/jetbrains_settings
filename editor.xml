@@ -7,6 +7,7 @@
   <component name="CodeInsightSettings">
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
   </component>
+  <component name="DaemonCodeAnalyzerSettings" profile="default_inspections" />
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="15" />
     <option name="FONT_REGULAR_SUB_FAMILY" value="Regular" />

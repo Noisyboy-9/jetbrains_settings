@@ -120,9 +120,7 @@
   </action>
   <action id="PreviousTemplateVariable" />
   <action id="QuickChangeScheme" />
-  <action id="QuickImplementations">
-    <keyboard-shortcut first-keystroke="alt space" />
-  </action>
+  <action id="QuickImplementations" />
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="ctrl t" />
     <keyboard-shortcut first-keystroke="meta r" />
@@ -151,6 +149,9 @@
   </action>
   <action id="SendEOF" />
   <action id="ServiceView.ShowServices" />
+  <action id="SmartTypeCompletion">
+    <keyboard-shortcut first-keystroke="alt space" />
+  </action>
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
