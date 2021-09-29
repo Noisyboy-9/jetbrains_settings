@@ -1,0 +1,15 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="63af55db-fc90-4cc2-b367-ce1be1734df9" name="WSL (63af55db-fc90-4cc2-b367-ce1be1734df9)" url="http:///">
+        <fileTransfer accessType="SFTP" sshConfigId="e8d34e8a-368b-49e0-b431-690a74064bd6" sshConfig="noisyboy@localhost:4444 password" />
+      </webServer>
+      <webServer id="7c3516e0-2846-4d5a-96d4-54a760b80bb7" name="WSL (7c3516e0-2846-4d5a-96d4-54a760b80bb7)" url="http:///">
+        <fileTransfer accessType="SFTP" sshConfigId="e8d34e8a-368b-49e0-b431-690a74064bd6" sshConfig="noisyboy@localhost:4444 password" />
+      </webServer>
+      <webServer id="21935f86-2573-4048-8d64-8c0c2a5b03f8" name="WSL (21935f86-2573-4048-8d64-8c0c2a5b03f8)" url="http:///">
+        <fileTransfer accessType="SFTP" host="127.0.0.1" port="4444" sshConfigId="3485b397-86c4-4dc2-8c62-e4afc192f3ea" sshConfig="noisyboy@127.0.0.1:4444 password" />
+      </webServer>
+    </option>
+  </component>
+</application>
