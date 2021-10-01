@@ -13,6 +13,7 @@
     <option name="ignoredIdentifiers">
       <list>
         <option value="main.*" />
+        <option value="car.name" />
       </list>
     </option>
   </inspection_tool>

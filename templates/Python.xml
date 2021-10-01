@@ -8,4 +8,13 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="meth" value="def $NAME$(self, $ARGS$)-&gt;$RETURN_TYPE$:&#10;    $BODY$" description="it creates a method in the given context" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python_Class" value="true" />
+    </context>
+  </template>
 </templateSet>
