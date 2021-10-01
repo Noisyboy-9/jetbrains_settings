@@ -1,0 +1,11 @@
+<templateSet group="Python">
+  <template name="def" value="def $NAME$($ARGS$)-&gt;$OUTPUT$:&#10;    $BODY$" description="it adds 'def' block" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="OUTPUT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>
