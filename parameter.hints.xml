@@ -1,0 +1,18 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="PHP">
+        <added pattern="\Illuminate\Database\Eloquent\Collection.map(callback)" />
+        <added pattern="\Spatie\YamlFrontMatter\YamlFrontMatter.parseFile(path)" />
+        <added pattern="\Illuminate\Support\Collection.map(callback)" />
+      </blacklist>
+    </blacklists>
+    <option id="php.show.names.for.all.args" value="true" />
+    <disabledLanguages>
+      <language id="TypeScript" />
+      <language id="Angular2Html" />
+      <language id="JavaScript" />
+      <language id="SQL" />
+    </disabledLanguages>
+  </component>
+</application>

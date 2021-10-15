@@ -1,0 +1,5 @@
+<application>
+  <component name="PomodoroSettings">
+    <option name="ringVolume" value="2" />
+  </component>
+</application>
