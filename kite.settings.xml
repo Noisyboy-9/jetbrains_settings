@@ -1,5 +1,6 @@
 <application>
   <component name="kite">
+    <option name="showWelcomeNotification" value="false" />
     <option name="kiteUnavailableShown" value="true" />
   </component>
 </application>
