@@ -1,0 +1,9 @@
+<application>
+  <component name="AbbreviationManager">
+    <abbreviations>
+      <action id="Django.RunManageTaskAction">
+        <abbreviation name="runa" />
+      </action>
+    </abbreviations>
+  </component>
+</application>
