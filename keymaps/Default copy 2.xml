@@ -159,6 +159,9 @@
     <keyboard-shortcut first-keystroke="ctrl v" />
   </action>
   <action id="Svn.RefreshWorkingCopies" />
+  <action id="Switcher">
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
+  </action>
   <action id="Terminal.ClearBuffer">
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
