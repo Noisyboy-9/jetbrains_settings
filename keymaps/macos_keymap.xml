@@ -1,4 +1,4 @@
-<keymap version="1" name="Default copy 2" parent="Mac OS X 10.5+">
+<keymap version="1" name="macos_keymap" parent="Mac OS X 10.5+">
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="meta f9" />
   </action>
@@ -91,12 +91,6 @@
     <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
   <action id="GotoTest" />
-  <action id="Graph.ActualSize">
-    <keyboard-shortcut first-keystroke="meta divide" />
-  </action>
-  <action id="Images.Editor.ActualSize">
-    <keyboard-shortcut first-keystroke="meta divide" />
-  </action>
   <action id="Images.Thumbnails.Hide" />
   <action id="MethodDown" />
   <action id="NavBar-cancel" />
@@ -120,7 +114,9 @@
   </action>
   <action id="PreviousTemplateVariable" />
   <action id="QuickChangeScheme" />
-  <action id="QuickImplementations" />
+  <action id="QuickImplementations">
+    <keyboard-shortcut first-keystroke="alt space" />
+  </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="ctrl t" />
     <keyboard-shortcut first-keystroke="meta r" />
@@ -149,9 +145,6 @@
   </action>
   <action id="SendEOF" />
   <action id="ServiceView.ShowServices" />
-  <action id="SmartTypeCompletion">
-    <keyboard-shortcut first-keystroke="alt space" />
-  </action>
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
@@ -159,9 +152,6 @@
     <keyboard-shortcut first-keystroke="ctrl v" />
   </action>
   <action id="Svn.RefreshWorkingCopies" />
-  <action id="Switcher">
-    <keyboard-shortcut first-keystroke="shift ctrl tab" />
-  </action>
   <action id="Terminal.ClearBuffer">
     <keyboard-shortcut first-keystroke="meta l" />
   </action>

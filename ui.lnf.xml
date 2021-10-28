@@ -7,10 +7,10 @@
     <option name="IDE_AA_TYPE" value="Greyscale" />
     <option name="MAX_LOOKUP_LIST_HEIGHT" value="6" />
     <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
+    <option name="PRESENTATION_MODE_FONT_SIZE" value="26" />
     <option name="RIGHT_HORIZONTAL_SPLIT" value="true" />
     <option name="SCROLL_TAB_LAYOUT_IN_EDITOR" value="false" />
     <option name="SHOW_NAVIGATION_BAR_MEMBERS" value="false" />
     <option name="SHOW_NAVIGATION_BAR" value="false" />
-    <option name="SHOW_STATUS_BAR" value="false" />
   </component>
 </application>

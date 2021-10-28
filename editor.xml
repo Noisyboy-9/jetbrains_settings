@@ -7,6 +7,7 @@
   <component name="CodeInsightSettings">
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
   </component>
+  <component name="DaemonCodeAnalyzerSettings" profile="default_inspections" />
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="18" />
     <option name="FONT_REGULAR_SUB_FAMILY" value="Regular" />
@@ -15,7 +16,7 @@
     <option name="USE_LIGATURES" value="true" />
   </component>
   <component name="EditorSettings">
-    <option name="USE_SOFT_WRAPS" value="" />
+    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
     <option name="SOFT_WRAP_FILE_MASKS" value="*" />
     <option name="SHOW_BREADCRUMBS" value="false" />
     <option name="IS_ALL_SOFTWRAPS_SHOWN" value="true" />

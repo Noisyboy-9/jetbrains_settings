@@ -1,21 +1,88 @@
 <application>
+  <component name="PhpAutoImport" auto_import_file_scope="true" import_on_paste="ALL" />
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter id="060ccc82-748e-40ac-bcff-e578e39f2019" name="Ubuntu 20.04" home="wsl://DATA" debugger_id="php.debugger.XDebug">
-        <remote_data INTERPRETER_PATH="/home/linuxbrew/.linuxbrew/bin/php" HELPERS_PATH="" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DISTRIBUTION_ID="UBUNTU2004" />
-      </interpreter>
+      <interpreter id="32edfd7c-e5ba-4902-b014-27ed93d858d1" name="PHP 8.0.7" home="/usr/local/bin/php" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
-      <interpreter name="Ubuntu 20.04">
-        <phpinfo binary_type="PHP" php_cgi="/home/linuxbrew/.linuxbrew/Cellar/php/8.0.0_1/bin/php-cgi" php_cli="/home/linuxbrew/.linuxbrew/Cellar/php/8.0.0_1/bin/php" path_separator=":" remote_host="172.22.112.1" version="8.0.0">
-          <additional_php_ini>/home/linuxbrew/.linuxbrew/etc/php/8.0/conf.d/ext-opcache.ini</additional_php_ini>
-          <configuration_file>/home/linuxbrew/.linuxbrew/etc/php/8.0/php.ini</configuration_file>
+      <interpreter name="PHP 7.3">
+        <phpinfo binary_type="PHP" php_cli="/usr/bin/php" path_separator=":" version="7.3.24-(to be removed in future macOS)">
+          <additional_php_ini />
+          <configuration_file />
           <configuration_options>
-            <configuration_option name="include_path" value=".:/home/linuxbrew/.linuxbrew/Cellar/php/8.0.0_1/share/php/pear" />
+            <configuration_option name="include_path" value=".:" />
           </configuration_options>
           <debuggers />
+          <loaded_extensions>
+            <extension name="Core" />
+            <extension name="PDO" />
+            <extension name="Phar" />
+            <extension name="Reflection" />
+            <extension name="SPL" />
+            <extension name="SimpleXML" />
+            <extension name="bcmath" />
+            <extension name="bz2" />
+            <extension name="calendar" />
+            <extension name="ctype" />
+            <extension name="curl" />
+            <extension name="date" />
+            <extension name="dba" />
+            <extension name="dom" />
+            <extension name="exif" />
+            <extension name="fileinfo" />
+            <extension name="filter" />
+            <extension name="ftp" />
+            <extension name="gd" />
+            <extension name="hash" />
+            <extension name="iconv" />
+            <extension name="json" />
+            <extension name="ldap" />
+            <extension name="libxml" />
+            <extension name="mbstring" />
+            <extension name="mysqli" />
+            <extension name="mysqlnd" />
+            <extension name="openssl" />
+            <extension name="pcre" />
+            <extension name="pdo_mysql" />
+            <extension name="pdo_sqlite" />
+            <extension name="posix" />
+            <extension name="readline" />
+            <extension name="session" />
+            <extension name="shmop" />
+            <extension name="snmp" />
+            <extension name="soap" />
+            <extension name="sockets" />
+            <extension name="sqlite3" />
+            <extension name="standard" />
+            <extension name="sysvmsg" />
+            <extension name="sysvsem" />
+            <extension name="sysvshm" />
+            <extension name="tidy" />
+            <extension name="tokenizer" />
+            <extension name="wddx" />
+            <extension name="xml" />
+            <extension name="xmlreader" />
+            <extension name="xmlrpc" />
+            <extension name="xmlwriter" />
+            <extension name="xsl" />
+            <extension name="zlib" />
+          </loaded_extensions>
+        </phpinfo>
+      </interpreter>
+      <interpreter name="PHP 8.0.7">
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php/8.0.7/bin/php-cgi" php_cli="/usr/local/Cellar/php/8.0.7/bin/php" path_separator=":" version="8.0.7">
+          <additional_php_ini>/usr/local/etc/php/8.0/conf.d/error_log.ini, /usr/local/etc/php/8.0/conf.d/ext-opcache.ini, /usr/local/etc/php/8.0/conf.d/ext-xdebug.ini, /usr/local/etc/php/8.0/conf.d/php-memory-limits.ini</additional_php_ini>
+          <configuration_file>/usr/local/etc/php/8.0/php.ini</configuration_file>
+          <configuration_options>
+            <configuration_option name="include_path" value=".:/usr/local/Cellar/php/8.0.7/share/php/pear" />
+          </configuration_options>
+          <debuggers>
+            <debugger_info debugger="xdebug" debugger_version="3.0.4">
+              <debug_extensions />
+            </debugger_info>
+          </debuggers>
           <loaded_extensions>
             <extension name="Core" />
             <extension name="FFI" />
@@ -63,6 +130,7 @@
             <extension name="posix" />
             <extension name="pspell" />
             <extension name="readline" />
+            <extension name="redis" />
             <extension name="session" />
             <extension name="shmop" />
             <extension name="soap" />
@@ -75,6 +143,7 @@
             <extension name="sysvshm" />
             <extension name="tidy" />
             <extension name="tokenizer" />
+            <extension name="xdebug" />
             <extension name="xml" />
             <extension name="xmlreader" />
             <extension name="xmlwriter" />
@@ -85,10 +154,5 @@
         </phpinfo>
       </interpreter>
     </phpInfoCache>
-  </component>
-  <component name="PhpUnit">
-    <phpunit_settings>
-      <phpunit_by_interpreter interpreter_id="060ccc82-748e-40ac-bcff-e578e39f2019" configuration_file_path="//wsl$/Ubuntu-20.04/home/noisyboy/webProgramming/pronto/phpunit.xml" custom_loader_path="//wsl$/Ubuntu-20.04/home/noisyboy/webProgramming/pronto/vendor/autoload.php" use_configuration_file="true" />
-    </phpunit_settings>
   </component>
 </application>
