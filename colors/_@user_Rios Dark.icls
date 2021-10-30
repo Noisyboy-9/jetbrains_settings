@@ -1,24 +1,11 @@
 <scheme name="_@user_Rios Dark" version="142" parent_scheme="Darcula">
-  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2021-09-21T22:25:03</property>
-    <property name="ide">Python</property>
-    <property name="ideVersion">2021.2.2.0.0</property>
-    <property name="modified">2021-09-28T21:09:40</property>
+    <property name="created">2021-10-30T22:30:56</property>
+    <property name="ide">GoLand</property>
+    <property name="ideVersion">2021.2.4.0.0</property>
+    <property name="modified">2021-10-30T22:32:00</property>
     <property name="originalScheme">Rios Dark</property>
   </metaInfo>
-  <option name="LINE_SPACING" value="1.8" />
-  <font>
-    <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
-    <option name="EDITOR_FONT_SIZE" value="18" />
-  </font>
-  <font>
-    <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
-    <option name="EDITOR_FONT_SIZE" value="18" />
-  </font>
-  <option name="EDITOR_LIGATURES" value="true" />
-  <option name="CONSOLE_FONT_NAME" value="Menlo" />
-  <option name="CONSOLE_LIGATURES" value="true" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="212529" />
     <option name="ANNOTATIONS_COLOR" value="b0bec5" />
@@ -1087,13 +1074,13 @@
         <option name="FOREGROUND" value="62c47c" />
       </value>
     </option>
-    <option name="HAML_RUBY_CODE" baseAttributes="INJECTED_LANGUAGE_FRAGMENT" />
+    <option name="HAML_RUBY_CODE" baseAttributes="" />
     <option name="HAML_TAG">
       <value>
         <option name="FOREGROUND" value="c0ccdb" />
       </value>
     </option>
-    <option name="HAML_TEXT" baseAttributes="TEXT" />
+    <option name="HAML_TEXT" baseAttributes="" />
     <option name="HOCON_BAD_CHARACTER">
       <value>
         <option name="EFFECT_COLOR" value="ff5370" />
@@ -1371,7 +1358,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="LESS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="LESS_VARIABLE" baseAttributes="" />
     <option name="LINE_FULL_COVERAGE">
       <value>
         <option name="BACKGROUND" value="264b33" />
@@ -3033,7 +3020,7 @@
         <option name="FOREGROUND" value="cec86f" />
       </value>
     </option>
-    <option name="SASS_COMMENT" baseAttributes="CSS.COMMENT" />
+    <option name="SASS_COMMENT" baseAttributes="" />
     <option name="SASS_MIXIN">
       <value>
         <option name="FOREGROUND" value="c262c4" />
@@ -3536,6 +3523,11 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
+    <option name="com.plan9.IDENTIFIER" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="com.plan9.INSTRUCTION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="com.plan9.LABEL" baseAttributes="DEFAULT_LABEL" />
+    <option name="com.plan9.PSEUDO_INSTRUCTION" baseAttributes="com.plan9.INSTRUCTION" />
+    <option name="com.plan9.REGISTER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="osmorc.headerName">
       <value>
         <option name="FOREGROUND" value="a7dbd8" />
