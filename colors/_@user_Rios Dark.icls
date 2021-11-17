@@ -1,11 +1,15 @@
 <scheme name="_@user_Rios Dark" version="142" parent_scheme="Darcula">
+  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2021-09-21T22:25:03</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2021.2.2.0.0</property>
-    <property name="modified">2021-11-06T17:29:20</property>
+    <property name="modified">2021-11-17T21:56:43</property>
     <property name="originalScheme">Rios Dark</property>
   </metaInfo>
+  <option name="CONSOLE_FONT_NAME" value="JetBrains Mono" />
+  <option name="CONSOLE_LIGATURES" value="true" />
+  <option name="CONSOLE_LINE_SPACING" value="1.8" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="212529" />
     <option name="ANNOTATIONS_COLOR" value="b0bec5" />
@@ -3503,9 +3507,9 @@
         <option name="FOREGROUND" value="6299c4" />
       </value>
     </option>
-    <option name="XPATH.KEYWORD" baseAttributes="" />
-    <option name="XPATH.XPATH_NAME" baseAttributes="" />
-    <option name="XPATH.XPATH_VARIABLE" baseAttributes="" />
+    <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="XPATH.XPATH_NAME" baseAttributes="TEXT" />
+    <option name="XPATH.XPATH_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="YAML_SCALAR_KEY">
       <value>
         <option name="FOREGROUND" value="6299c4" />
