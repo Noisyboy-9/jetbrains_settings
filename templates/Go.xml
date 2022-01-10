@@ -1,0 +1,12 @@
+<templateSet group="Go">
+  <template name="methp" value="func ($RECEIVER$ *$TYPE_1$) $NAME$($PARAMS$) $TYPE_2$ {   &#10; $END$&#10;}" description="creates a method with pointer" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE_1" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="RECEIVER" expression="goSuggestVariableName()" defaultValue="&quot;reciver&quot;" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+</templateSet>
