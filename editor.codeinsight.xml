@@ -1,0 +1,6 @@
+<application>
+  <component name="Go">
+    <option name="detectGoPackageFromClipboard" value="true" />
+    <option name="renamePackageOnDirectoryRenaming" value="YES" />
+  </component>
+</application>
