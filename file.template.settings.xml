@@ -1,7 +1,7 @@
 <application>
   <component name="ExportableFileTemplateSettings">
-    <includes_templates>
-      <template name="C File Header.h" reformat="true" live-template-enabled="false" enabled="false" />
-    </includes_templates>
+    <default_templates>
+      <template name="dockerfile." file-name="Template file to dockerfiles" reformat="true" live-template-enabled="false" />
+    </default_templates>
   </component>
 </application>
