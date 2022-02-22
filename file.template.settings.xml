@@ -1,0 +1,10 @@
+<application>
+  <component name="ExportableFileTemplateSettings">
+    <default_templates>
+      <template name="kubernets-deployment.yml" file-name="deployment" reformat="true" live-template-enabled="true" />
+      <template name="kubernets-pod.yml" file-name="pod.yml" reformat="true" live-template-enabled="true" />
+      <template name="kubernets-replicaionController.yml" file-name="replicationController-definition.yml" reformat="true" live-template-enabled="true" />
+      <template name="kubernets-replicaset.yml" file-name="replicaset.yml" reformat="true" live-template-enabled="true" />
+    </default_templates>
+  </component>
+</application>
