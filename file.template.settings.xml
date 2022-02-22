@@ -5,6 +5,7 @@
       <template name="kubernets-pod.yml" file-name="pod.yml" reformat="true" live-template-enabled="true" />
       <template name="kubernets-replicaionController.yml" file-name="replicationController-definition.yml" reformat="true" live-template-enabled="true" />
       <template name="kubernets-replicaset.yml" file-name="replicaset.yml" reformat="true" live-template-enabled="true" />
+      <template name="kubernets-service.yml" file-name="${FILE_NAME}-service" reformat="true" live-template-enabled="true" />
     </default_templates>
   </component>
 </application>
