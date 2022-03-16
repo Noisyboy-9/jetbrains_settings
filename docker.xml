@@ -1,9 +1,0 @@
-<application>
-  <component name="ComposeFilesSynchronizedWithServiceView">
-    <option value="file://$USER_HOME$/Desktop/dev/work/bootcamp/learning_postgres_sql/docker-compose.yml" />
-  </component>
-  <component name="DockerSettings">
-    <option name="dockerComposePath" value="/usr/local/bin/docker-compose" />
-    <option name="dockerPath" value="/usr/local/bin/docker" />
-  </component>
-</application>
