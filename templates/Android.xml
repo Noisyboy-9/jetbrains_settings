@@ -3,6 +3,5 @@
     <variable name="i" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="data" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
 </templateSet>
