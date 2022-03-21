@@ -4,7 +4,7 @@
     <property name="created">2022-03-16T19:29:27</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2021.3.2.0.0</property>
-    <property name="modified">2022-03-16T19:31:37</property>
+    <property name="modified">2022-03-21T14:24:53</property>
     <property name="originalScheme">Rios Light</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.6" />
@@ -16,8 +16,6 @@
     <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
     <option name="EDITOR_FONT_SIZE" value="28" />
   </font>
-  <option name="CONSOLE_FONT_NAME" value="Menlo" />
-  <option name="CONSOLE_FONT_SIZE" value="28" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="cec86f" />
     <option name="ANNOTATIONS_COLOR" value="b0bec5" />
@@ -3500,8 +3498,8 @@
         <option name="FOREGROUND" value="6299c4" />
       </value>
     </option>
-    <option name="XPATH.KEYWORD" baseAttributes="" />
-    <option name="XPATH.XPATH_NAME" baseAttributes="" />
+    <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="XPATH.XPATH_NAME" baseAttributes="TEXT" />
     <option name="YAML_SCALAR_KEY">
       <value>
         <option name="FOREGROUND" value="6299c4" />
