@@ -14,6 +14,9 @@
       <property name="autoReconnect" value="true" />
     </driver>
     <driver id="oracle" name="Oracle" />
+    <driver id="postgresql">
+      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.2.22" />
+    </driver>
     <driver id="sqlite.xerial" name="Sqlite (Xerial)" />
     <driver id="sybase.ase" name="Sybase (Native)" />
   </component>

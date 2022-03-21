@@ -20,6 +20,10 @@
   <action id="ChangesView.Revert" />
   <action id="ChangesView.ToggleCommitUi" />
   <action id="CheckinProject" />
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
+    <keyboard-shortcut first-keystroke="shift meta 1" />
+  </action>
   <action id="CloseGotItTooltip" />
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta f" />
@@ -108,6 +112,14 @@
   <action id="NextOccurence" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift tab" />
+  </action>
+  <action id="NotebookRunAllAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt enter" />
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
+  <action id="NotebookRunCellSelectBelowAction">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="shift meta o" />

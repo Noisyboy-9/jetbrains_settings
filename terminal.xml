@@ -1,7 +1,0 @@
-<application>
-  <component name="TerminalOptionsProvider">
-    <option name="myPasteOnMiddleMouseButton" value="false" />
-    <option name="mySoundBell" value="false" />
-    <option name="myTabName" value="Terminal" />
-  </component>
-</application>
