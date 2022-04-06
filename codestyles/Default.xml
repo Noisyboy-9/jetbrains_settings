@@ -34,6 +34,20 @@
   </codeStyleSettings>
   <codeStyleSettings language="JAVA">
     <arrangement>
+      <groups>
+        <group>
+          <type>GETTERS_AND_SETTERS</type>
+          <order>KEEP</order>
+        </group>
+        <group>
+          <type>OVERRIDDEN_METHODS</type>
+          <order>KEEP</order>
+        </group>
+        <group>
+          <type>DEPENDENT_METHODS</type>
+          <order>BREADTH_FIRST</order>
+        </group>
+      </groups>
       <rules>
         <section>
           <rule>
@@ -122,16 +136,6 @@
               <AND>
                 <FIELD>true</FIELD>
                 <PRIVATE>true</PRIVATE>
-                <STATIC>true</STATIC>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <INITIALIZER_BLOCK>true</INITIALIZER_BLOCK>
                 <STATIC>true</STATIC>
               </AND>
             </match>
