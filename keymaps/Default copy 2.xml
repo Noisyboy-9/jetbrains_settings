@@ -102,6 +102,12 @@
     <keyboard-shortcut first-keystroke="meta divide" />
   </action>
   <action id="Images.Thumbnails.Hide" />
+  <action id="Kubernetes.Apply">
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
+  <action id="Kubernetes.Delete">
+    <keyboard-shortcut first-keystroke="shift meta t" />
+  </action>
   <action id="MethodDown" />
   <action id="NavBar-cancel" />
   <action id="NavBar-selectHome">
