@@ -1,0 +1,8 @@
+<keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta b" />
+  </action>
+  <action id="ChangesView.ToggleCommitUi" />
+  <action id="CheckinProject" />
+  <action id="Git.Commit.Stage" />
+</keymap>

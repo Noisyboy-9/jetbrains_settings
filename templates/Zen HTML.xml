@@ -1,5 +1,7 @@
 <templateSet group="Zen HTML">
   <template name="b" value="&lt;b&gt;$END$&lt;/b&gt;" description="&lt;b&gt;...&lt;/b&gt;" toReformat="false" toShortenFQNames="true">
-    <context />
+    <context>
+      <option name="JSX_HTML" value="true" />
+    </context>
   </template>
 </templateSet>
