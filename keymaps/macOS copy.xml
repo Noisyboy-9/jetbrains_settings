@@ -5,4 +5,10 @@
   <action id="ChangesView.ToggleCommitUi" />
   <action id="CheckinProject" />
   <action id="Git.Commit.Stage" />
+  <action id="Kubernetes.Apply">
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
+  <action id="Kubernetes.Delete">
+    <keyboard-shortcut first-keystroke="shift meta t" />
+  </action>
 </keymap>
