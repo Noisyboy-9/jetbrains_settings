@@ -2,6 +2,10 @@
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta b" />
   </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="meta back_quote" />
+  </action>
   <action id="ChangesView.ToggleCommitUi" />
   <action id="CheckinProject" />
   <action id="Git.Commit.Stage" />
