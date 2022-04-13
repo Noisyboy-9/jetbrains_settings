@@ -10,6 +10,7 @@
   </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="meta #10000a7" />
+    <keyboard-shortcut first-keystroke="meta back_quote" />
   </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="meta open_bracket" />
@@ -119,6 +120,7 @@
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift tab" />
   </action>
+  <action id="NextWindow" />
   <action id="NotebookRunAllAction">
     <keyboard-shortcut first-keystroke="shift ctrl alt enter" />
     <keyboard-shortcut first-keystroke="meta t" />
