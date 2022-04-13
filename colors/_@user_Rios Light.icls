@@ -4,7 +4,7 @@
     <property name="created">2022-03-16T19:29:27</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2021.3.2.0.0</property>
-    <property name="modified">2022-03-21T14:24:53</property>
+    <property name="modified">2022-04-13T11:03:48</property>
     <property name="originalScheme">Rios Light</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.6" />
@@ -16,6 +16,14 @@
     <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
     <option name="EDITOR_FONT_SIZE" value="28" />
   </font>
+  <console-font>
+    <option name="EDITOR_FONT_NAME" value="Operator Mono" />
+    <option name="EDITOR_FONT_SIZE" value="18" />
+  </console-font>
+  <console-font>
+    <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
+    <option name="EDITOR_FONT_SIZE" value="28" />
+  </console-font>
   <colors>
     <option name="ADDED_LINES_COLOR" value="cec86f" />
     <option name="ANNOTATIONS_COLOR" value="b0bec5" />
@@ -861,7 +869,6 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="GHERKIN_REGEXP_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="GO_BAD_TOKEN">
       <value>
         <option name="EFFECT_COLOR" value="e889b5" />
@@ -3498,8 +3505,8 @@
         <option name="FOREGROUND" value="6299c4" />
       </value>
     </option>
-    <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
-    <option name="XPATH.XPATH_NAME" baseAttributes="TEXT" />
+    <option name="XPATH.KEYWORD" baseAttributes="" />
+    <option name="XPATH.XPATH_NAME" baseAttributes="" />
     <option name="YAML_SCALAR_KEY">
       <value>
         <option name="FOREGROUND" value="6299c4" />
