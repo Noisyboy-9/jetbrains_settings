@@ -4,19 +4,11 @@
     <property name="created">2022-02-14T14:04:54</property>
     <property name="ide">GoLand</property>
     <property name="ideVersion">2021.3.3.0.0</property>
-    <property name="modified">2022-02-14T14:30:29</property>
+    <property name="modified">2022-05-04T18:16:19</property>
     <property name="originalScheme">Light Owl (Material)</property>
   </metaInfo>
-  <console-font>
-    <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
-    <option name="EDITOR_FONT_SIZE" value="12" />
-  </console-font>
-  <console-font>
-    <option name="EDITOR_FONT_NAME" value="Menlo" />
-    <option name="EDITOR_FONT_SIZE" value="12" />
-  </console-font>
-  <option name="CONSOLE_LIGATURES" value="true" />
-  <option name="CONSOLE_LINE_SPACING" value="1.4" />
+  <option name="CONSOLE_FONT_NAME" value="MonoLisa" />
+  <option name="CONSOLE_LINE_SPACING" value="2.0" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="49d0c5" />
     <option name="ANNOTATIONS_COLOR" value="90a7b2" />
