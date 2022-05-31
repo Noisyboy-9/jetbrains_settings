@@ -4,17 +4,17 @@
     <property name="created">2022-02-14T14:04:54</property>
     <property name="ide">GoLand</property>
     <property name="ideVersion">2021.3.3.0.0</property>
-    <property name="modified">2022-02-14T14:07:07</property>
+    <property name="modified">2022-05-31T23:06:18</property>
     <property name="originalScheme">Atom One Dark (Material)</property>
   </metaInfo>
-  <option name="LINE_SPACING" value="1.4" />
+  <option name="LINE_SPACING" value="1.6" />
   <font>
-    <option name="EDITOR_FONT_NAME" value="Menlo" />
-    <option name="EDITOR_FONT_SIZE" value="12" />
+    <option name="EDITOR_FONT_NAME" value="MonoLisa" />
+    <option name="EDITOR_FONT_SIZE" value="16" />
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
-    <option name="EDITOR_FONT_SIZE" value="12" />
+    <option name="EDITOR_FONT_SIZE" value="16" />
   </font>
   <option name="EDITOR_LIGATURES" value="true" />
   <console-font>
@@ -25,6 +25,7 @@
     <option name="EDITOR_FONT_NAME" value="Menlo" />
     <option name="EDITOR_FONT_SIZE" value="12" />
   </console-font>
+  <option name="CONSOLE_LINE_SPACING" value="1.4" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="91b859" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
