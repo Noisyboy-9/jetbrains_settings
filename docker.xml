@@ -1,0 +1,8 @@
+<application>
+  <component name="ComposeFilesSynchronizedWithServiceView">
+    <option value="file://$USER_HOME$/Desktop/dev/university/principles_of_database_design/final_project/docker-compose.yaml" />
+  </component>
+  <component name="DockerSettings">
+    <option name="dockerComposePath" value="/usr/local/bin/docker-compose" />
+  </component>
+</application>
