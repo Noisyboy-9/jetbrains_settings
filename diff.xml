@@ -32,7 +32,6 @@
       <entry key="TestsFiledAssertions">
         <PlaceSettings>
           <option name="EXPAND_BY_DEFAULT" value="false" />
-          <option name="IGNORE_POLICY" value="TRIM_WHITESPACES" />
         </PlaceSettings>
       </entry>
       <entry key="VcsLogView">
