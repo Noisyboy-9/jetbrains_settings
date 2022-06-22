@@ -3,6 +3,7 @@
   <GoCodeStyleSettings>
     <option name="REMOVE_REDUNDANT_IMPORT_ALIASES" value="true" />
     <option name="ADD_LEADING_SPACE_TO_COMMENTS" value="true" />
+    <option name="IMPORT_SORTING" value="GOIMPORTS" />
     <option name="MOVE_ALL_IMPORTS_IN_ONE_DECLARATION" value="true" />
     <option name="MOVE_ALL_STDLIB_IMPORTS_IN_ONE_GROUP" value="true" />
     <option name="GROUP_STDLIB_IMPORTS" value="true" />
@@ -323,5 +324,10 @@
   </codeStyleSettings>
   <codeStyleSettings language="Markdown">
     <option name="WRAP_ON_TYPING" value="1" />
+  </codeStyleSettings>
+  <codeStyleSettings language="go">
+    <indentOptions>
+      <option name="SMART_TABS" value="true" />
+    </indentOptions>
   </codeStyleSettings>
 </code_scheme>
