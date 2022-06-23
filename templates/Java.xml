@@ -1,0 +1,23 @@
+<templateSet group="Java">
+  <template name="pubvo" value="public void $NAME$($PARAMS$) {&#10;    $END$&#10;}" description="inserts 'public void' method" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="trr" value="try($FIRST$) {&#10;   $END$ &#10;} " description="create try with resource" toReformat="false" toShortenFQNames="true">
+    <variable name="FIRST" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="pubbo" value="public boolean $NAME$($PARAMS$) {&#10;    $BODY$&#10;}" description="inserts 'public boolean' method" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
