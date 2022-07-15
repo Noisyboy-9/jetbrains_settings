@@ -96,6 +96,10 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="meta alt o" />
+    <keyboard-shortcut first-keystroke="shift meta o" />
+  </action>
   <action id="GotoTest" />
   <action id="Graph.ActualSize">
     <keyboard-shortcut first-keystroke="meta divide" />
@@ -131,7 +135,6 @@
     <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
   <action id="OptimizeImports">
-    <keyboard-shortcut first-keystroke="shift meta o" />
     <keyboard-shortcut first-keystroke="shift meta s" />
   </action>
   <action id="PrevParameter" />
