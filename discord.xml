@@ -1,0 +1,5 @@
+<application>
+  <component name="DiscordApplicationSettings">
+    <option name="applicationLastUpdateNotification" value="1.5.0" />
+  </component>
+</application>
