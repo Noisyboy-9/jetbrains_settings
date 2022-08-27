@@ -4,6 +4,9 @@
     <driver id="db2.jtopen" name="DB2 (JTOpen)" />
     <driver id="derby.embedded" name="Derby (Embedded)" />
     <driver id="derby.remote" name="Derby (Remote)" />
+    <driver id="mariadb">
+      <artifact id="MariaDB Connector J" name="MariaDB Connector J" use="true" version="2.7.3" />
+    </driver>
     <driver id="sqlserver.ms" name="SQL Server (Microsoft)" />
     <driver id="sqlserver.jtds" name="SQL Server (jTds)" />
     <driver id="mysql.8">
