@@ -52,17 +52,9 @@
       </conditions>
       <template name="fakeKey" value="close($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
     </template>
-  </component>
-  <component name="PostfixTemplatesSettings">
-    <option name="providerToDisabledTemplates">
-      <disabled-templates provider="com.goide.postfix.GoPostfixTemplateProvider">
-        <value>
-          <set>
-            <option value="append" />
-            <option value="println" />
-          </set>
-        </value>
-      </disabled-templates>
-    </option>
+    <template id="print@userDefined" key=".print" provider="builtin.js" language-level="ES6" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="console.log($EXPR$)" toReformat="true" toShortenFQNames="true" />
+    </template>
   </component>
 </application>
