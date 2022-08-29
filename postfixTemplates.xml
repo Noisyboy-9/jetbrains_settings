@@ -12,10 +12,6 @@
       </conditions>
       <template name="fakeKey" value="float64($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
     </template>
-    <template id="info@userDefined" key=".info" provider="com.goide.postfix.GoPostfixTemplateProvider" topmost="false">
-      <conditions />
-      <template name="fakeKey" value="log.App.Infof(&quot;%v&quot;, $EXPR$)" toReformat="true" toShortenFQNames="true" />
-    </template>
     <template id="println" key=".println" provider="com.goide.postfix.GoPostfixTemplateProvider" builtin="println" topmost="true">
       <conditions>
         <condition id="non void" />
@@ -35,6 +31,10 @@
         <condition id="channel" />
       </conditions>
       <template name="fakeKey" value="string($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="debug@userDefined" key=".debug" provider="com.goide.postfix.GoPostfixTemplateProvider" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="log.App.Debugf(&quot;$EXPR$: %v&quot;, $EXPR$)" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="defer@userDefined" key=".defer" provider="com.goide.postfix.GoPostfixTemplateProvider" topmost="false">
       <conditions>
@@ -56,9 +56,9 @@
       </conditions>
       <template name="fakeKey" value="close($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
     </template>
-    <template id="debug@userDefined" key=".debug" provider="com.goide.postfix.GoPostfixTemplateProvider" topmost="false">
+    <template id="info@userDefined" key=".info" provider="com.goide.postfix.GoPostfixTemplateProvider" topmost="false">
       <conditions />
-      <template name="fakeKey" value="log.App.Debugf(&quot;%v&quot;, $EXPR$)" toReformat="true" toShortenFQNames="true" />
+      <template name="fakeKey" value="log.App.Infof(&quot;$EXPR$: %v&quot;, $EXPR$)" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="print@userDefined" key=".print" provider="builtin.js" language-level="ES6" topmost="false">
       <conditions />
