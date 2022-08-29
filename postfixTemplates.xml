@@ -12,6 +12,10 @@
       </conditions>
       <template name="fakeKey" value="float64($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
     </template>
+    <template id="info@userDefined" key=".info" provider="com.goide.postfix.GoPostfixTemplateProvider" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="log.App.Infof(&quot;%v&quot;, $EXPR$)" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="println" key=".println" provider="com.goide.postfix.GoPostfixTemplateProvider" builtin="println" topmost="true">
       <conditions>
         <condition id="non void" />
@@ -51,10 +55,6 @@
         <condition id="channel" />
       </conditions>
       <template name="fakeKey" value="close($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
-    </template>
-    <template id="info@userDefined" key=".info" provider="com.goide.postfix.GoPostfixTemplateProvider" topmost="false">
-      <conditions />
-      <template name="fakeKey" value="log.App.infof(&quot;%v&quot;, $EXPR$)" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="debug@userDefined" key=".debug" provider="com.goide.postfix.GoPostfixTemplateProvider" topmost="false">
       <conditions />
