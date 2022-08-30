@@ -2,9 +2,6 @@
   <component name="ShowUsagesSettings">
     <option name="GROUP_BY_FILE_STRUCTURE" value="true" />
   </component>
-  <component name="UsageFilteringRuleState">
-    <option value="com.intellij.usages.impl.rules.ReadAccessFilteringRule" />
-  </component>
   <component name="UsageViewSettings">
     <option name="GROUP_BY_MODULE" value="false" />
     <option name="GROUP_BY_PACKAGE" value="false" />
