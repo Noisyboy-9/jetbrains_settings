@@ -1,5 +1,6 @@
 <templateSet group="Shell Script">
   <template name="cmd" value="`$COMMAND$`" description="Command substitution" toReformat="false" toShortenFQNames="false">
     <variable name="COMMAND" expression="" defaultValue="&quot;command&quot;" alwaysStopAt="true" />
+    <context />
   </template>
 </templateSet>
