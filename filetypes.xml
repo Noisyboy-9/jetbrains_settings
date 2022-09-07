@@ -1,9 +1,6 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern="*.php.stub" type="PHP" />
-      <mapping pattern=".php_cs" type="PHP" />
-      <mapping ext="stub" type="PHP" />
       <mapping pattern="jsonToHtml" type="PLAIN_TEXT" />
       <mapping pattern="customizing-the-views" type="PLAIN_TEXT" />
       <mapping pattern="publicKey" type="PLAIN_TEXT" />
