@@ -3,6 +3,7 @@
     <variable name="VARKIND" expression="jsSuggestDefaultVariableKind()" defaultValue="let" alwaysStopAt="false" />
     <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="false" />
     <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="clg" value="console.log($1$)" description="console log" toReformat="true" toShortenFQNames="true">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
