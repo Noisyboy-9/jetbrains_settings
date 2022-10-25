@@ -28,6 +28,11 @@
     <option name="DICT_ALIGNMENT" value="2" />
     <option name="OPTIMIZE_IMPORTS_JOIN_FROM_IMPORTS_WITH_SAME_SOURCE" value="true" />
   </Python>
+  <SqlCodeStyleSettings version="6">
+    <option name="KEYWORD_CASE" value="2" />
+    <option name="IDENTIFIER_CASE" value="1" />
+    <option name="TYPE_CASE" value="2" />
+  </SqlCodeStyleSettings>
   <codeStyleSettings language="HTML">
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
