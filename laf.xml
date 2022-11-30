@@ -1,7 +1,6 @@
 <application>
   <component name="LafManager" autodetect="true">
-    <laf class-name="com.intellij.laf.macos.MacIntelliJLaf" />
-    <preferred-light-laf class-name="com.intellij.laf.macos.MacIntelliJLaf" />
-    <preferred-dark-laf class-name="com.intellij.ide.ui.laf.darcula.DarculaLaf" themeId="64bac2a8-9558-4b8a-a0e0-a4017ec9114b" />
+    <laf class-name="com.intellij.ide.ui.laf.IntelliJLaf" themeId="60306159-29af-468e-9c4d-d7d312c47a99" />
+    <preferred-light-laf class-name="com.intellij.ide.ui.laf.IntelliJLaf" themeId="60306159-29af-468e-9c4d-d7d312c47a99" />
   </component>
 </application>
