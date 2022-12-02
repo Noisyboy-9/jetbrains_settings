@@ -1,0 +1,5 @@
+<application>
+  <component name="NotificationConfiguration" showBalloons="false">
+    <notification groupId="Spellchecker" shouldReadAloud="true" playSound="true" />
+  </component>
+</application>

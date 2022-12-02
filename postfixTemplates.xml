@@ -1,0 +1,80 @@
+<application>
+  <component name="PostfixTemplates">
+    <template id="toInt@userDefined" key=".toInt" provider="com.goide.postfix.GoPostfixTemplateProvider" topmost="false">
+      <conditions>
+        <condition id="number" />
+      </conditions>
+      <template name="fakeKey" value="int($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="toFloat64@userDefined" key=".toFloat" provider="com.goide.postfix.GoPostfixTemplateProvider" topmost="false">
+      <conditions>
+        <condition id="number" />
+      </conditions>
+      <template name="fakeKey" value="float64($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="println" key=".println" provider="com.goide.postfix.GoPostfixTemplateProvider" builtin="println" topmost="true">
+      <conditions>
+        <condition id="non void" />
+      </conditions>
+      <template name="fakeKey" value="fmt.Println($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="print" key=".print" provider="com.goide.postfix.GoPostfixTemplateProvider" builtin="print" topmost="true">
+      <conditions>
+        <condition id="non void" />
+      </conditions>
+      <template name="fakeKey" value="fmt.Println($EXPR$)$END$" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="toString@userDefined" key=".toString" provider="com.goide.postfix.GoPostfixTemplateProvider" topmost="false">
+      <conditions>
+        <condition id="array" />
+        <condition id="slice" />
+        <condition id="channel" />
+      </conditions>
+      <template name="fakeKey" value="string($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="debug@userDefined" key=".debug" provider="com.goide.postfix.GoPostfixTemplateProvider" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="log.App.Debugf(&quot;$EXPR$: %v&quot;, $EXPR$)" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="defer@userDefined" key=".defer" provider="com.goide.postfix.GoPostfixTemplateProvider" topmost="false">
+      <conditions>
+        <condition id="boolean" />
+        <condition id="string" />
+        <condition id="number" />
+        <condition id="array" />
+        <condition id="slice" />
+        <condition id="map" />
+        <condition id="channel" />
+        <condition id="non void" />
+        <condition id="error" />
+      </conditions>
+      <template name="fakeKey" value="defer $EXPR$" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="close@userDefined" key=".close" provider="com.goide.postfix.GoPostfixTemplateProvider" topmost="false">
+      <conditions>
+        <condition id="channel" />
+      </conditions>
+      <template name="fakeKey" value="close($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="info@userDefined" key=".info" provider="com.goide.postfix.GoPostfixTemplateProvider" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="log.App.Infof(&quot;$EXPR$: %v&quot;, $EXPR$)" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="print@userDefined" key=".print" provider="builtin.js" language-level="ES6" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="console.log($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+  </component>
+  <component name="PostfixTemplatesSettings">
+    <option name="providerToDisabledTemplates">
+      <disabled-templates provider="com.goide.postfix.GoPostfixTemplateProvider">
+        <value>
+          <set>
+            <option value="append" />
+            <option value="println" />
+          </set>
+        </value>
+      </disabled-templates>
+    </option>
+  </component>
+</application>

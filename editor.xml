@@ -1,0 +1,43 @@
+<application>
+  <component name="CodeFoldingSettings">
+    <option name="COLLAPSE_IMPORTS" value="false" />
+    <option name="COLLAPSE_METHODS" value="true" />
+    <option name="COLLAPSE_DOC_COMMENTS" value="true" />
+  </component>
+  <component name="CodeInsightSettings">
+    <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
+  </component>
+  <component name="DaemonCodeAnalyzerSettings" profile="default_inspections" />
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR" />
+    <option name="SOFT_WRAP_FILE_MASKS" value="*" />
+    <option name="STRIP_TRAILING_SPACES" value="Whole" />
+    <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
+    <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
+    <option name="SHOW_BREADCRUMBS" value="false" />
+    <option name="IS_ALL_SOFTWRAPS_SHOWN" value="true" />
+    <option name="IS_DND_ENABLED" value="false" />
+  </component>
+  <component name="InlayHintsSettings">
+    <option name="disabledHintProviderIds">
+      <set>
+        <option value="JavaScript.js.type.hints" />
+      </set>
+    </option>
+    <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
+  </component>
+  <component name="JavaCodeFoldingSettings">
+    <option name="collapseConstructorGenericParameters" value="false" />
+    <option name="collapseLambdas" value="false" />
+    <option name="collapseOneLineMethods" value="false" />
+  </component>
+  <component name="LiveEditOptions" chromeAutoDelay="150" chromeUpdateJSOnChanges="true" nodeAutoDelay="150" nodeUpdateOnChanges="true" restartIfHotSwapFailed="true" updateFilesToCompile="true" />
+  <component name="PhpCodeFoldingSettings">
+    <option name="COLLAPSE_FUNCTION_BODY" value="true" />
+    <option name="COLLAPSE_METHOD_BODY" value="true" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+  </component>
+</application>

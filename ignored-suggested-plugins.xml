@@ -1,0 +1,9 @@
+<application>
+  <component name="IgnoredPluginSuggestions">
+    <option name="pluginIds">
+      <list>
+        <option value="org.jetbrains.plugins.go" />
+      </list>
+    </option>
+  </component>
+</application>

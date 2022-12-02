@@ -1,0 +1,19 @@
+<keymap version="1" name="macOS copy 1" parent="Mac OS X 10.5+">
+  <action id="ActivateProjectToolWindow" />
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="meta back_quote" />
+  </action>
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
+    <keyboard-shortcut first-keystroke="meta 1" />
+  </action>
+  <action id="DuplicatesForm.SendToLeft" />
+  <action id="FileChooser.GotoHome" />
+  <action id="NextWindow" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
+  <action id="Vcs.UpdateProject" />
+</keymap>
