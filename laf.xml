@@ -1,6 +1,6 @@
 <application>
   <component name="LafManager" autodetect="true">
-    <laf class-name="com.intellij.ide.ui.laf.darcula.DarculaLaf" />
+    <laf class-name="com.intellij.laf.macos.MacIntelliJLaf" />
     <preferred-light-laf class-name="com.intellij.laf.macos.MacIntelliJLaf" />
   </component>
 </application>
