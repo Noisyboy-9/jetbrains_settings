@@ -52,6 +52,7 @@
       <removed_mapping pattern="sharing-error-occurrences" approved="true" type="PLAIN_TEXT" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
+      <mapping ext="pde" type="ObjectiveC" />
       <mapping pattern="*.php.stub" type="PHP" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="stub" type="PHP" />
