@@ -1,9 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern="*.php.stub" type="PHP" />
-      <mapping pattern=".php_cs" type="PHP" />
-      <mapping ext="stub" type="PHP" />
+      <mapping ext="pde" type="ObjectiveC" />
       <mapping pattern="jsonToHtml" type="PLAIN_TEXT" />
       <mapping pattern="publicKey" type="PLAIN_TEXT" />
       <mapping pattern="working-with-the-current-tenant" type="PLAIN_TEXT" />
@@ -55,7 +53,6 @@
       <removed_mapping pattern="sharing-error-occurrences" approved="true" type="PLAIN_TEXT" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
-      <mapping ext="pde" type="ObjectiveC" />
       <mapping pattern="*.php.stub" type="PHP" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="stub" type="PHP" />
