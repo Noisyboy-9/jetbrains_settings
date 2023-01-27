@@ -1,7 +1,7 @@
 <application>
   <component name="VimEditorSettings">
     <editor>
-      <key-repeat enabled="true" />
+      <key-repeat enabled="false" />
     </editor>
   </component>
   <component name="VimKeySettings">
