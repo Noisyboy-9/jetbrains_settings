@@ -9,7 +9,7 @@
     </driver>
     <driver id="sqlserver.ms" name="SQL Server (Microsoft)" />
     <driver id="sqlserver.jtds" name="SQL Server (jTds)" />
-    <driver id="mysql.8">
+    <driver id="mysql.8" dialect="MariaDB">
       <artifact />
       <artifact id="MySQL ConnectorJ" name="MySQL ConnectorJ" use="true" version="8.0.25" />
     </driver>
