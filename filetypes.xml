@@ -1,5 +1,5 @@
 <application>
-  <component name="FileTypeManager" version="18">
+  <component name="FileTypeManager" version="19">
     <extensionMap>
       <mapping pattern="*.php.stub" type="PHP" />
       <mapping pattern=".php_cs" type="PHP" />

@@ -1,22 +1,67 @@
 <application>
   <component name="LangManager">
-    <option name="languageName" value="JavaScript" />
-    <option name="languageToProjectMap">
-      <map>
-        <entry key="JavaScript" value="\\wsl$\Ubuntu-20.04\home\noisyboy\webProgramming\aut_general_skills\LearnJavaScriptProject" />
-      </map>
-    </option>
+    <option name="languageName" value="go" />
   </component>
   <component name="LessonStateBase">
     <option name="map">
       <map>
+        <entry key="actions" value="NOT_PASSED" />
         <entry key="before debugging: run/debug configurations" value="NOT_PASSED" />
         <entry key="code editing tips and tricks" value="PASSED" />
+        <entry key="codeassistance.localhistory" value="NOT_PASSED" />
+        <entry key="codeassistance.parameterinfo" value="NOT_PASSED" />
+        <entry key="codeassistance.quickpopups" value="NOT_PASSED" />
+        <entry key="collapse" value="NOT_PASSED" />
+        <entry key="completion with tab" value="NOT_PASSED" />
         <entry key="debugging code. part i" value="PASSED" />
         <entry key="debugging code. part ii" value="NOT_PASSED" />
+        <entry key="duplicate" value="NOT_PASSED" />
         <entry key="fundamentals of testing in webstorm" value="NOT_PASSED" />
+        <entry key="git.annotate" value="NOT_PASSED" />
+        <entry key="git.basicworkflow" value="NOT_PASSED" />
+        <entry key="git.changelistsandshelf" value="NOT_PASSED" />
+        <entry key="git.commit" value="NOT_PASSED" />
+        <entry key="git.interactiverebase" value="NOT_PASSED" />
+        <entry key="git.projecthistory" value="NOT_PASSED" />
+        <entry key="git.quickstart" value="NOT_PASSED" />
+        <entry key="go.basic.and.smart.completion" value="NOT_PASSED" />
+        <entry key="go.basic.completion" value="NOT_PASSED" />
+        <entry key="go.code.formatting" value="NOT_PASSED" />
+        <entry key="go.comment.line" value="NOT_PASSED" />
+        <entry key="go.context.actions" value="NOT_PASSED" />
+        <entry key="go.debug.function.calls" value="NOT_PASSED" />
+        <entry key="go.dump.goroutines" value="NOT_PASSED" />
+        <entry key="go.extract.method.refactoring.with.returns" value="NOT_PASSED" />
+        <entry key="go.extract.variable" value="NOT_PASSED" />
+        <entry key="go.file.structure" value="NOT_PASSED" />
+        <entry key="go.find.in.files" value="NOT_PASSED" />
+        <entry key="go.generating.tests.for.generics" value="NOT_PASSED" />
+        <entry key="go.generics.implement.missing.methods" value="NOT_PASSED" />
+        <entry key="go.generics.inspections" value="NOT_PASSED" />
+        <entry key="go.navigation.comments" value="NOT_PASSED" />
+        <entry key="go.navigation.internal.and.build.constraints" value="NOT_PASSED" />
+        <entry key="go.occurrences" value="NOT_PASSED" />
+        <entry key="go.onboarding.tour" value="NOT_PASSED" />
+        <entry key="go.postfix.completion" value="NOT_PASSED" />
+        <entry key="go.recent.files.and.locations" value="NOT_PASSED" />
+        <entry key="go.refactoring.menu.lesson.name" value="NOT_PASSED" />
+        <entry key="go.release.code.coverage.for.programs" value="NOT_PASSED" />
+        <entry key="go.release.create.function.in.another.package" value="NOT_PASSED" />
+        <entry key="go.rename.refactoring" value="NOT_PASSED" />
+        <entry key="go.run.debug.playground" value="NOT_PASSED" />
+        <entry key="go.run.fuzz.testing" value="NOT_PASSED" />
+        <entry key="go.running.gofmt" value="NOT_PASSED" />
+        <entry key="go.smart.type.completion" value="NOT_PASSED" />
+        <entry key="go.support.for.table.tests" value="NOT_PASSED" />
+        <entry key="go.using.generics" value="NOT_PASSED" />
+        <entry key="go.working.with.json" value="NOT_PASSED" />
+        <entry key="move" value="NOT_PASSED" />
+        <entry key="multiple selections" value="NOT_PASSED" />
         <entry key="refactorings in a nutshell" value="PASSED" />
         <entry key="secrets of efficient navigation" value="PASSED" />
+        <entry key="select" value="NOT_PASSED" />
+        <entry key="statement completion" value="NOT_PASSED" />
+        <entry key="surround and unwrap" value="NOT_PASSED" />
         <entry key="the nuts and bolts of code completion" value="PASSED" />
         <entry key="the power of code inspections" value="PASSED" />
       </map>
