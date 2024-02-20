@@ -7,7 +7,9 @@
   <component name="CodeInsightSettings">
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
   </component>
-  <component name="DaemonCodeAnalyzerSettings" profile="default_inspections" />
+  <component name="DaemonCodeAnalyzerSettings" profile="default_inspections">
+    <option name="AUTOREPARSE_DELAY" value="0" />
+  </component>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR" />
     <option name="SOFT_WRAP_FILE_MASKS" value="*" />
