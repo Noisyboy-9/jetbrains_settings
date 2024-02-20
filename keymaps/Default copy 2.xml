@@ -1,4 +1,5 @@
 <keymap version="1" name="Default copy 2" parent="Mac OS X 10.5+">
+  <action id="ActivateBookmarksToolWindow" />
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="meta f9" />
   </action>
@@ -20,7 +21,6 @@
   <action id="ChangesView.Diff" />
   <action id="ChangesView.Revert" />
   <action id="ChangesView.ToggleCommitUi" />
-  <action id="CheckinProject" />
   <action id="ChooseRunConfiguration">
     <keyboard-shortcut first-keystroke="ctrl alt r" />
     <keyboard-shortcut first-keystroke="shift meta 1" />
@@ -41,6 +41,7 @@
     <keyboard-shortcut first-keystroke="shift meta alt g" />
   </action>
   <action id="DatabaseView.PropertiesAction" />
+  <action id="DatabaseView.Tools.SubmitChanges" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
@@ -50,6 +51,7 @@
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
   <action id="DuplicatesForm.SendToLeft" />
+  <action id="DuplicatesForm.SendToRight" />
   <action id="EditorAddCaretPerSelectedLine" />
   <action id="EditorDuplicate" />
   <action id="EditorLineEnd">
@@ -66,6 +68,7 @@
   </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.GotoHome" />
+  <action id="FileChooser.GotoProject" />
   <action id="FileChooser.LightEditGotoOpenedFile">
     <keyboard-shortcut first-keystroke="meta #3e9" />
     <keyboard-shortcut first-keystroke="shift meta #3e9" />
