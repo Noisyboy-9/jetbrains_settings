@@ -9,5 +9,6 @@
     <option name="SCROLL_TAB_LAYOUT_IN_EDITOR" value="false" />
     <option name="SHOW_NAVIGATION_BAR_MEMBERS" value="false" />
     <option name="SHOW_NAVIGATION_BAR" value="false" />
+    <option name="UI_DENSITY" value="COMPACT" />
   </component>
 </application>
