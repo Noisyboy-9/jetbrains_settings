@@ -4,7 +4,7 @@
     <property name="created">2021-09-21T22:25:03</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2021.2.2.0.0</property>
-    <property name="modified">2024-02-25T12:40:45</property>
+    <property name="modified">2024-02-25T15:31:05</property>
     <property name="originalScheme">Rios Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.8" />
@@ -3042,7 +3042,7 @@
         <option name="BACKGROUND" value="323232" />
       </value>
     </option>
-    <option name="SQL_SYNTHETIC_ENTITY" baseAttributes="" />
+    <option name="SQL_SYNTHETIC_ENTITY" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="62c47c" />
