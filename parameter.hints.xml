@@ -6,6 +6,9 @@
         <added pattern="\Spatie\YamlFrontMatter\YamlFrontMatter.parseFile(path)" />
         <added pattern="\Illuminate\Support\Collection.map(callback)" />
       </blacklist>
+      <blacklist language="Go">
+        <added pattern="METHOD_SPEC:github.com/DATA-DOG/go-sqlmock#SqlmockCommon.ExpectQuery(expectedSQL)" />
+      </blacklist>
     </blacklists>
     <option id="php.show.names.for.all.args" value="true" />
     <disabledLanguages>
