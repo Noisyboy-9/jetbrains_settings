@@ -4,7 +4,7 @@
     <property name="created">2021-09-21T22:25:03</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2021.2.2.0.0</property>
-    <property name="modified">2024-02-28T17:40:29</property>
+    <property name="modified">2024-02-29T21:04:35</property>
     <property name="originalScheme">Rios Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.8" />
@@ -130,9 +130,9 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="BASH.HERE_DOC_END" baseAttributes="" />
-    <option name="BASH.HERE_DOC_START" baseAttributes="" />
-    <option name="BASH.SHEBANG" baseAttributes="" />
+    <option name="BASH.HERE_DOC_END" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="BASH.HERE_DOC_START" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="BASH.SHEBANG" baseAttributes="BASH.LINE_COMMENT" />
     <option name="BLADE_BAD_CHARACTER">
       <value>
         <option name="EFFECT_COLOR" value="ff5370" />
