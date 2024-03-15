@@ -4,7 +4,7 @@
     <property name="created">2022-02-14T14:04:54</property>
     <property name="ide">GoLand</property>
     <property name="ideVersion">2021.3.3.0.0</property>
-    <property name="modified">2024-03-15T11:18:53</property>
+    <property name="modified">2024-03-15T12:42:53</property>
     <property name="originalScheme">SynthWave '84 (Material)</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.6" />
@@ -3544,7 +3544,7 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="SQL_SYNTHETIC_ENTITY" baseAttributes="" />
+    <option name="SQL_SYNTHETIC_ENTITY" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="SQUARE_BRACKETS_RAINBOW_COLOR0">
       <value>
         <option name="FOREGROUND" value="f97e72" />
