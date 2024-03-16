@@ -5,7 +5,6 @@
     <option name="FONT_SIZE_2D" value="16.0" />
     <option name="FONT_FAMILY" value="MonoLisa" />
     <option name="FONT_REGULAR_SUB_FAMILY" value="Book" />
-    <option name="FONT_BOLD_SUB_FAMILY" value="Bold" />
     <option name="LINE_SPACING" value="1.7" />
     <option name="USE_LIGATURES" value="true" />
   </component>
